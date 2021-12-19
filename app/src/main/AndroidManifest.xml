@@ -10,9 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Travellovisor">
         <activity
-            android:name=".TravelGuide"
-            android:exported="true" />
-        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
