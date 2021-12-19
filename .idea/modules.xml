@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Travellovisor.iml" filepath="$PROJECT_DIR$/.idea/modules/Travellovisor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Travellovisor.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Travellovisor.app.iml" />
+    </modules>
+  </component>
+</project>
