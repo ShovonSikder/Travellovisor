@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 
+import com.example.travellovisor.services.TravelGuide;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -17,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
     private void goToHomepage() {
-        Intent intent=new Intent(this,Homepage.class);
+        Intent intent=new Intent(this, Homepage.class);
         startActivity(intent);
         finish();
     }
