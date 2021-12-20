@@ -1,14 +1,16 @@
-package com.example.travellovisor;
+package com.example.travellovisor.account;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class SplashScreen extends AppCompatActivity {
+import com.example.travellovisor.R;
+
+public class OTPverifyActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_splash_screen);
+        setContentView(R.layout.activity_otpverify);
     }
 }
