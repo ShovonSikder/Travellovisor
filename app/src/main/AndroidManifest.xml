@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Travellovisor">
         <activity
+            android:name=".services.TravelGuideDetails"
+            android:exported="true" />
+        <activity
             android:name=".services.FindPlaces"
             android:exported="false" />
         <activity

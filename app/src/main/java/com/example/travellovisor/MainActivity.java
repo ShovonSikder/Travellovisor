@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 
 import com.example.travellovisor.services.TravelGuide;
+import com.example.travellovisor.services.TravelGuideDetails;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
     private void goToHomepage() {
-        Intent intent=new Intent(this, Homepage.class);
+        Intent intent=new Intent(this, TravelGuideDetails.class);
         startActivity(intent);
         finish();
     }
