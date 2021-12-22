@@ -5,13 +5,13 @@
       <map>
         <entry key="..\:/Users/conne/StudioProjects/Travellovisor/app/src/main/res/layout/activity_homepage.xml" value="0.2234375" />
         <entry key="..\:/Users/conne/StudioProjects/Travellovisor/app/src/main/res/layout/activity_otpsend.xml" value="0.22" />
-        <entry key="..\:/Users/conne/StudioProjects/Travellovisor/app/src/main/res/layout/activity_otpverify.xml" value="0.1337386018237082" />
+        <entry key="..\:/Users/conne/StudioProjects/Travellovisor/app/src/main/res/layout/activity_otpverify.xml" value="0.16" />
         <entry key="..\:/Users/shovo/GUB Life/4yr/CSE_402 lab/Travellovisor/Travellovisor/app/src/main/res/layout/activity_main.xml" value="0.18840579710144928" />
         <entry key="..\:/Users/shovo/GUB Life/4yr/CSE_402 lab/Travellovisor/Travellovisor/app/src/main/res/layout/activity_travel_guide.xml" value="0.2359375" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
