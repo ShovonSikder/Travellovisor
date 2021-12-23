@@ -16,11 +16,17 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //redirects to homepage;
-        goToHomepage();
+        //goToHomepage();
+        goToTravelGuide();
 
     }
     private void goToHomepage() {
-        Intent intent=new Intent(this, TravelGuideDetails.class);
+        Intent intent=new Intent(this, Homepage.class);
+        startActivity(intent);
+        finish();
+    }
+    private void goToTravelGuide() {
+        Intent intent=new Intent(this, TravelGuide.class);
         startActivity(intent);
         finish();
     }

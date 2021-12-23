@@ -8,7 +8,10 @@
         <entry key="..\:/Users/conne/StudioProjects/Travellovisor/app/src/main/res/layout/activity_otpverify.xml" value="0.1337386018237082" />
         <entry key="..\:/Users/shovo/GUB Life/4yr/CSE_402 lab/Travellovisor/Travellovisor/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/shovo/GUB Life/4yr/CSE_402 lab/Travellovisor/Travellovisor/app/src/main/res/drawable/ic_baseline_monetization_on_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/shovo/GUB Life/4yr/CSE_402 lab/Travellovisor/Travellovisor/app/src/main/res/drawable/ic_launcher_background.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/shovo/GUB Life/4yr/CSE_402 lab/Travellovisor/Travellovisor/app/src/main/res/drawable/listiteamshape.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/shovo/GUB Life/4yr/CSE_402 lab/Travellovisor/Travellovisor/app/src/main/res/drawable/shapebackground.xml" value="0.14322916666666666" />
+        <entry key="..\:/Users/shovo/GUB Life/4yr/CSE_402 lab/Travellovisor/Travellovisor/app/src/main/res/drawable/shapebuttonbackground.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/shovo/GUB Life/4yr/CSE_402 lab/Travellovisor/Travellovisor/app/src/main/res/layout/activity_find_places.xml" value="0.25" />
         <entry key="..\:/Users/shovo/GUB Life/4yr/CSE_402 lab/Travellovisor/Travellovisor/app/src/main/res/layout/activity_homepage.xml" value="0.25" />
         <entry key="..\:/Users/shovo/GUB Life/4yr/CSE_402 lab/Travellovisor/Travellovisor/app/src/main/res/layout/activity_main.xml" value="0.18840579710144928" />
@@ -17,6 +20,7 @@
         <entry key="..\:/Users/shovo/GUB Life/4yr/CSE_402 lab/Travellovisor/Travellovisor/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
         <entry key="..\:/Users/shovo/GUB Life/4yr/CSE_402 lab/Travellovisor/Travellovisor/app/src/main/res/layout/activity_travel_guide.xml" value="0.2359375" />
         <entry key="..\:/Users/shovo/GUB Life/4yr/CSE_402 lab/Travellovisor/Travellovisor/app/src/main/res/layout/activity_travel_guide_details.xml" value="0.2359375" />
+        <entry key="..\:/Users/shovo/GUB Life/4yr/CSE_402 lab/Travellovisor/Travellovisor/app/src/main/res/layout/ttravel_guide_list_sample_view.xml" value="0.25" />
       </map>
     </option>
   </component>
