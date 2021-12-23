@@ -1832,6 +1832,9 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable ic_baseline_monetization_on_24
+drawable ic_baseline_perm_identity_24
+drawable ic_baseline_search_24
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -1840,6 +1843,8 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable image1
+drawable listiteamshape
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -1873,6 +1878,8 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable shapebackground
+drawable shapebuttonbackground
 drawable test_custom_background
 drawable test_level_drawable
 drawable tooltip_frame_dark
@@ -1982,6 +1989,7 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id butonToPkg
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2017,6 +2025,8 @@ id continuousVelocity
 id coordinator
 id cos
 id counterclockwise
+id currency
+id currency2
 id currentState
 id custom
 id customPanel
@@ -2029,6 +2039,8 @@ id decor_content_parent
 id default_activity_button
 id deltaRelative
 id dependency_ordering
+id descrip
+id description
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -2084,6 +2096,7 @@ id graph_wrap
 id group_divider
 id grouping
 id groups
+id guideList
 id guideline
 id header_title
 id hideable
@@ -2094,10 +2107,6 @@ id horizontal_only
 id icon
 id icon_group
 id icon_only
-id idBtnGetOtp
-id idBtnVerify
-id idEdtOtp
-id idEdtPhoneNumber
 id ifRoom
 id ignore
 id ignoreRequest
@@ -2124,6 +2133,7 @@ id light
 id line1
 id line3
 id linear
+id linearLayout
 id listMode
 id list_item
 id masked
@@ -2218,6 +2228,8 @@ id percent
 id pin
 id position
 id postLayout
+id profile
+id profile2
 id progress_circular
 id progress_horizontal
 id radio
@@ -2240,6 +2252,8 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollable
+id search1
+id search2
 id search_badge
 id search_bar
 id search_button
@@ -2325,6 +2339,8 @@ id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
+id themeImage
+id themeImage2
 id time
 id title
 id titleDividerNoCustom
@@ -2439,6 +2455,7 @@ layout activity_otpsend
 layout activity_otpverify
 layout activity_splash_screen
 layout activity_travel_guide
+layout activity_travel_guide_details
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog
@@ -2525,6 +2542,7 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
+layout ttravel_guide_list_sample_view
 menu example_menu
 menu example_menu2
 mipmap ic_launcher
