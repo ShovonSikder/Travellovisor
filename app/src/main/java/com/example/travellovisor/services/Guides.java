@@ -3,6 +3,7 @@ package com.example.travellovisor.services;
 public class Guides {
     String title;
     String description;
+    String imglink="";
 
     public Guides() {
     }
@@ -10,6 +11,20 @@ public class Guides {
     public Guides(String title, String description) {
         this.title = title;
         this.description = description;
+    }
+
+    public Guides(String title, String description, String imglink) {
+        this.title = title;
+        this.description = description;
+        this.imglink = imglink;
+    }
+
+    public String getImglink() {
+        return imglink;
+    }
+
+    public void setImglink(String imglink) {
+        this.imglink = imglink;
     }
 
     public String getTitle() {
