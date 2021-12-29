@@ -23,6 +23,12 @@
         android:testOnly="true"
         android:theme="@style/Theme.Travellovisor" >
         <activity
+            android:name="com.example.travellovisor.account.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.travellovisor.account.RegistrationActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.travellovisor.services.TravelGuideDetails"
             android:exported="true" />
         <activity
