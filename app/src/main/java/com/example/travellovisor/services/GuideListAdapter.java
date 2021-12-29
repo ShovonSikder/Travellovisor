@@ -44,8 +44,8 @@ public class GuideListAdapter extends BaseAdapter {
         TextView title=convertView.findViewById(R.id.title);
         TextView descip=convertView.findViewById(R.id.descrip);
 
-        title.setText(guides.get(position).title);
-        descip.setText(guides.get(position).description);
+        title.setText(guides.get(position).getTitle());
+        descip.setText(guides.get(position).getDescription());
 
         return convertView;
     }

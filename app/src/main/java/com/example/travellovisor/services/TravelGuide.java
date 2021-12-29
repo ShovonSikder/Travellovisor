@@ -58,8 +58,9 @@ DatabaseReference db;
                //view description on another activity
                 Intent intent=new Intent(getApplicationContext(),TravelGuideDetails.class);
                 Bundle extras=new Bundle();
-                extras.putString("title",guides.get(position).title);
-                extras.putString("descrip",guides.get(position).description);
+                extras.putString("title",guides.get(position).getTitle());
+                extras.putString("descrip",guides.get(position).getDescription());
+                extras.putString("imglink",guides.get(position).getImglink());
                 intent.putExtras(extras);
                 startActivity(intent);
             }
@@ -84,7 +85,7 @@ DatabaseReference db;
 
             @Override
             public void onCancelled(@NonNull DatabaseError error) {
-                Toast.makeText(getApplicationContext(),"Database error",Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(),error.toString(),Toast.LENGTH_LONG).show();
 
             }
         });
