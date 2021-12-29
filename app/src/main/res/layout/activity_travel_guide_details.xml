@@ -55,7 +55,7 @@
                 android:padding="10dp"
                 android:text="Title here"
                 android:textColor="#050505"
-                android:textSize="30sp" />
+                android:textSize="25sp" />
             <!--description could be overflow the area so we need a scroll view-->
             <ScrollView
                 android:layout_width="match_parent"
@@ -68,7 +68,7 @@
                     android:padding="10dp"
                     android:text="Desciption here"
                     android:textColor="@color/black"
-                    android:textSize="20sp" />
+                    android:textSize="15sp" />
 
             </ScrollView>
 

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "426115451877",
+    "project_id": "travellovisor-829f1",
+    "storage_bucket": "travellovisor-829f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426115451877:android:1b97ea13342474725e3d0c",
+        "android_client_info": {
+          "package_name": "com.example.travellovisor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "426115451877-0ldc00o25efrrio0v7l1ue5s7bfs642p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.travellovisor",
+            "certificate_hash": "15cf3b0482d3813737a976670ebb7b9deecba6dc"
+          }
+        },
+        {
+          "client_id": "426115451877-ogm06la8vcs7m0klpn0jqri2gj7rqtvt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvCzMirm-33JgZzUaKWXtGe9ScXZe6gLA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "426115451877-ogm06la8vcs7m0klpn0jqri2gj7rqtvt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

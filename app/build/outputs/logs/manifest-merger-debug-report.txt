@@ -1,14 +1,17 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:2:1-43:12
+ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:2:1-44:12
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\shovo\.gradle\caches\transforms-3\c2e76fb5e086b5c906002f45c03cd24a\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\shovo\.gradle\caches\transforms-3\cedaca788e916b0451ba246e6e7c4e5d\transformed\constraintlayout-2.1.2\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.4.0] C:\Users\shovo\.gradle\caches\transforms-3\be5f57a8da44af27e3b79434a1fa46b5\transformed\appcompat-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-database:20.0.3] C:\Users\shovo\.gradle\caches\transforms-3\fdcf3172eb58868b6cde8efd15c88446\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:15:1-38:12
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:17:1-83:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\shovo\.gradle\caches\transforms-3\8fd6eea0562aea14f3bc71e06ead11c9\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta04] C:\Users\shovo\.gradle\caches\transforms-3\1c91f05893422f25d419c123e5c6fe88\transformed\jetified-firebase-appcheck-interop-16.0.0-beta04\AndroidManifest.xml:15:1-26:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.0] C:\Users\shovo\.gradle\caches\transforms-3\9a37503f4125aeb8aff9eebad867370d\transformed\jetified-firebase-database-collection-18.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\shovo\.gradle\caches\transforms-3\d244694a7cf60b68f6360e6d4d149cbd\transformed\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\shovo\.gradle\caches\transforms-3\d39720dfd11c84abbb1765362ab7e280\transformed\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\shovo\.gradle\caches\transforms-3\9917c1060ba2f79f3519a1b2bf642c2c\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:17:1-29:12
@@ -43,8 +46,8 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\s
 MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\shovo\.gradle\caches\transforms-3\fbb142ee1815151d8084e34648d018ac\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\shovo\.gradle\caches\transforms-3\0ec9a63f72234c6a7cb0667c5156537a\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\shovo\.gradle\caches\transforms-3\b5a1dde354f7afc013622ec6eac7dc84\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\shovo\.gradle\caches\transforms-3\8d4069d8883cd35818f5c173a3837002\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\shovo\.gradle\caches\transforms-3\82f0742619c93bff749e298ff0daa035\transformed\jetified-firebase-components-17.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\shovo\.gradle\caches\transforms-3\8d4069d8883cd35818f5c173a3837002\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\shovo\.gradle\caches\transforms-3\4a2dc31dca41ceabe72d8efa19d292bf\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\shovo\.gradle\caches\transforms-3\62e87c3cfe17c830dad51da22e55359f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:17:1-37:12
 MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\shovo\.gradle\caches\transforms-3\6e2cdf1f1e9a31a51efd2c74a8f81718\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:17:1-33:12
@@ -57,37 +60,51 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\shovo\.gradle\ca
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\shovo\.gradle\caches\transforms-3\783b035d32ce5be15ab468001bd7362a\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\shovo\.gradle\caches\transforms-3\84046498be48793439a4476136a93af1\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\shovo\.gradle\caches\transforms-3\737d9ff2c32889bb2521aaf2bc07e3c5\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:2:1-44:12
 	package
 		ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:3:5-40
 		INJECTED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:2:1-43:12
+		ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:2:1-44:12
 		INJECTED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:2:1-43:12
+		ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:2:1-44:12
 		INJECTED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
 ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.google.firebase:firebase-database:20.0.3] C:\Users\shovo\.gradle\caches\transforms-3\fdcf3172eb58868b6cde8efd15c88446\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:20.0.3] C:\Users\shovo\.gradle\caches\transforms-3\fdcf3172eb58868b6cde8efd15c88446\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:26:5-67
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:23:5-67
 	android:name
 		ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:6:5-79
+MERGED from [com.google.firebase:firebase-database:20.0.3] C:\Users\shovo\.gradle\caches\transforms-3\fdcf3172eb58868b6cde8efd15c88446\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-database:20.0.3] C:\Users\shovo\.gradle\caches\transforms-3\fdcf3172eb58868b6cde8efd15c88446\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:6:22-76
 application
-ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:7:5-41:19
+ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:8:5-42:19
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\shovo\.gradle\caches\transforms-3\c2e76fb5e086b5c906002f45c03cd24a\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\shovo\.gradle\caches\transforms-3\c2e76fb5e086b5c906002f45c03cd24a\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\shovo\.gradle\caches\transforms-3\cedaca788e916b0451ba246e6e7c4e5d\transformed\constraintlayout-2.1.2\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\shovo\.gradle\caches\transforms-3\cedaca788e916b0451ba246e6e7c4e5d\transformed\constraintlayout-2.1.2\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-database:20.0.3] C:\Users\shovo\.gradle\caches\transforms-3\fdcf3172eb58868b6cde8efd15c88446\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-database:20.0.3] C:\Users\shovo\.gradle\caches\transforms-3\fdcf3172eb58868b6cde8efd15c88446\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:28:5-36:19
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:26:5-81:19
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:26:5-81:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta04] C:\Users\shovo\.gradle\caches\transforms-3\1c91f05893422f25d419c123e5c6fe88\transformed\jetified-firebase-appcheck-interop-16.0.0-beta04\AndroidManifest.xml:24:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta04] C:\Users\shovo\.gradle\caches\transforms-3\1c91f05893422f25d419c123e5c6fe88\transformed\jetified-firebase-appcheck-interop-16.0.0-beta04\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\shovo\.gradle\caches\transforms-3\d39720dfd11c84abbb1765362ab7e280\transformed\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\shovo\.gradle\caches\transforms-3\d39720dfd11c84abbb1765362ab7e280\transformed\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\shovo\.gradle\caches\transforms-3\9917c1060ba2f79f3519a1b2bf642c2c\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:22:5-27:19
@@ -113,69 +130,69 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\shovo\.gradle\cach
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.7.0] C:\Users\shovo\.gradle\caches\transforms-3\c7220573e40aa30730232dde3fd8eccf\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:10:9-41
+		ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:11:9-41
 	android:roundIcon
-		ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:11:9-54
+		ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:12:9-54
 	android:icon
-		ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:9:9-43
+		ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:8:9-35
+		ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:13:9-51
+		ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:14:9-51
 activity#com.example.travellovisor.services.TravelGuideDetails
-ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:14:9-16:39
+ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:15:9-17:39
 	android:exported
-		ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:16:13-36
+		ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:17:13-36
 	android:name
-		ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:15:13-56
+		ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:16:13-56
 activity#com.example.travellovisor.services.TravelGuide
-ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:17:9-19:39
+ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:18:9-20:39
 	android:exported
-		ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:19:13-36
+		ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:20:13-36
 	android:name
-		ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:18:13-49
+		ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:19:13-49
 activity#com.example.travellovisor.services.FindPlaces
-ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:20:9-22:40
+ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:21:9-23:40
 	android:exported
-		ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:22:13-37
+		ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:23:13-37
 	android:name
-		ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:21:13-48
+		ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:22:13-48
 activity#com.example.travellovisor.account.OTPverifyActivity
-ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:23:9-25:40
+ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:24:9-26:40
 	android:exported
-		ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:25:13-37
+		ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:26:13-37
 	android:name
-		ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:24:13-54
+		ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:25:13-54
 activity#com.example.travellovisor.account.OTPsendActivity
-ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:26:9-28:40
+ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:27:9-29:40
 	android:exported
-		ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:28:13-37
+		ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:29:13-37
 	android:name
-		ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:27:13-52
+		ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:28:13-52
 activity#com.example.travellovisor.Homepage
-ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:29:9-31:40
+ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:30:9-32:40
 	android:exported
+		ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:32:13-37
+	android:name
 		ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:31:13-37
-	android:name
-		ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:30:13-37
 activity#com.example.travellovisor.MainActivity
-ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:32:9-40:20
+ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:33:9-41:20
 	android:exported
-		ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:34:13-36
+		ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:35:13-36
 	android:name
-		ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:33:13-41
+		ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:34:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:35:13-39:29
+ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:36:13-40:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:36:17-69
+ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:37:17-69
 	android:name
-		ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:36:25-66
+		ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:37:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:38:17-77
+ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:39:17-77
 	android:name
-		ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:38:27-74
+		ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml:39:27-74
 uses-sdk
 INJECTED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml
@@ -186,10 +203,16 @@ MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\shovo\.g
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.2] C:\Users\shovo\.gradle\caches\transforms-3\cedaca788e916b0451ba246e6e7c4e5d\transformed\constraintlayout-2.1.2\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.appcompat:appcompat:1.4.0] C:\Users\shovo\.gradle\caches\transforms-3\be5f57a8da44af27e3b79434a1fa46b5\transformed\appcompat-1.4.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.4.0] C:\Users\shovo\.gradle\caches\transforms-3\be5f57a8da44af27e3b79434a1fa46b5\transformed\appcompat-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-database:20.0.3] C:\Users\shovo\.gradle\caches\transforms-3\fdcf3172eb58868b6cde8efd15c88446\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database:20.0.3] C:\Users\shovo\.gradle\caches\transforms-3\fdcf3172eb58868b6cde8efd15c88446\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:21:5-44
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:21:5-44
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\shovo\.gradle\caches\transforms-3\8fd6eea0562aea14f3bc71e06ead11c9\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\shovo\.gradle\caches\transforms-3\8fd6eea0562aea14f3bc71e06ead11c9\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta04] C:\Users\shovo\.gradle\caches\transforms-3\1c91f05893422f25d419c123e5c6fe88\transformed\jetified-firebase-appcheck-interop-16.0.0-beta04\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta04] C:\Users\shovo\.gradle\caches\transforms-3\1c91f05893422f25d419c123e5c6fe88\transformed\jetified-firebase-appcheck-interop-16.0.0-beta04\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.0] C:\Users\shovo\.gradle\caches\transforms-3\9a37503f4125aeb8aff9eebad867370d\transformed\jetified-firebase-database-collection-18.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.0] C:\Users\shovo\.gradle\caches\transforms-3\9a37503f4125aeb8aff9eebad867370d\transformed\jetified-firebase-database-collection-18.0.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\shovo\.gradle\caches\transforms-3\d244694a7cf60b68f6360e6d4d149cbd\transformed\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\shovo\.gradle\caches\transforms-3\d244694a7cf60b68f6360e6d4d149cbd\transformed\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\shovo\.gradle\caches\transforms-3\d39720dfd11c84abbb1765362ab7e280\transformed\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:20:5-44
@@ -258,10 +281,10 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\shovo\.gradl
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\shovo\.gradle\caches\transforms-3\0ec9a63f72234c6a7cb0667c5156537a\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\shovo\.gradle\caches\transforms-3\b5a1dde354f7afc013622ec6eac7dc84\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\shovo\.gradle\caches\transforms-3\b5a1dde354f7afc013622ec6eac7dc84\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\shovo\.gradle\caches\transforms-3\8d4069d8883cd35818f5c173a3837002\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\shovo\.gradle\caches\transforms-3\8d4069d8883cd35818f5c173a3837002\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\shovo\.gradle\caches\transforms-3\82f0742619c93bff749e298ff0daa035\transformed\jetified-firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\shovo\.gradle\caches\transforms-3\82f0742619c93bff749e298ff0daa035\transformed\jetified-firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\shovo\.gradle\caches\transforms-3\8d4069d8883cd35818f5c173a3837002\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\shovo\.gradle\caches\transforms-3\8d4069d8883cd35818f5c173a3837002\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\shovo\.gradle\caches\transforms-3\4a2dc31dca41ceabe72d8efa19d292bf\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\shovo\.gradle\caches\transforms-3\4a2dc31dca41ceabe72d8efa19d292bf\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\shovo\.gradle\caches\transforms-3\62e87c3cfe17c830dad51da22e55359f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
@@ -296,10 +319,26 @@ INJECTED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travelloviso
 		INJECTED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\shovo\GUB Life\4yr\CSE_402 lab\Travellovisor\Travellovisor\app\src\main\AndroidManifest.xml
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:5-79
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-database:20.0.3] C:\Users\shovo\.gradle\caches\transforms-3\fdcf3172eb58868b6cde8efd15c88446\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:74:9-80:19
+MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:74:9-80:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\shovo\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\shovo\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-database:20.0.3] C:\Users\shovo\.gradle\caches\transforms-3\fdcf3172eb58868b6cde8efd15c88446\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:31:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\shovo\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\shovo\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
 	android:name
-		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:24:22-76
+		ADDED from [com.google.firebase:firebase-database:20.0.3] C:\Users\shovo\.gradle\caches\transforms-3\fdcf3172eb58868b6cde8efd15c88446\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:30:13-84
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:20.0.3] C:\Users\shovo\.gradle\caches\transforms-3\fdcf3172eb58868b6cde8efd15c88446\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:20.0.3] C:\Users\shovo\.gradle\caches\transforms-3\fdcf3172eb58868b6cde8efd15c88446\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:20.0.3] C:\Users\shovo\.gradle\caches\transforms-3\fdcf3172eb58868b6cde8efd15c88446\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:33:17-109
 activity#com.google.firebase.auth.internal.GenericIdpActivity
 ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
 	android:excludeFromRecents
@@ -362,18 +401,6 @@ action#com.google.firebase.auth.api.gms.service.START
 ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
 	android:name
 		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
-service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:74:9-80:19
-MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\shovo\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:33:9-37:35
-MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\shovo\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:33:9-37:35
-	android:exported
-		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:76:13-37
-	tools:targetApi
-		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\shovo\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:37:13-32
-	android:directBootAware
-		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\shovo\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:75:13-84
 meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
 ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
 	android:value
