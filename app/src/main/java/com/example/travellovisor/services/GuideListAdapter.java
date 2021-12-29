@@ -13,17 +13,16 @@ import java.util.ArrayList;
 import java.util.zip.Inflater;
 
 public class GuideListAdapter extends BaseAdapter {
-    ArrayList<String> titles;
-    ArrayList<String> descriptions;
+    ArrayList<Guides> guides;
+
     Context cntx;
-    GuideListAdapter(Context cntx,ArrayList<String> titles,ArrayList<String> descriptions ){
-        this.titles=titles;
-        this.descriptions=descriptions;
+    GuideListAdapter(Context cntx,ArrayList<Guides> guides){
+        this.guides=guides;
         this.cntx=cntx;
     }
     @Override
     public int getCount() {
-        return titles.size();
+        return guides.size();
     }
 
     @Override
@@ -45,8 +44,8 @@ public class GuideListAdapter extends BaseAdapter {
         TextView title=convertView.findViewById(R.id.title);
         TextView descip=convertView.findViewById(R.id.descrip);
 
-        title.setText(titles.get(position));
-        descip.setText(descriptions.get(position));
+        title.setText(guides.get(position).title);
+        descip.setText(guides.get(position).description);
 
         return convertView;
     }
