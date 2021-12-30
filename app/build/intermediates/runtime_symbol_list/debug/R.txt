@@ -1289,6 +1289,7 @@ int color teal_200 0x7f0500dd
 int color teal_700 0x7f0500de
 int color test_mtrl_calendar_day 0x7f0500df
 int color test_mtrl_calendar_day_selected 0x7f0500e0
+int color tomato 0x7f0500e4
 int color tooltip_background_dark 0x7f0500e1
 int color tooltip_background_light 0x7f0500e2
 int color white 0x7f0500e3
@@ -2280,6 +2281,8 @@ int id sin 0x7f080189
 int id skipCollapsed 0x7f08018a
 int id skipped 0x7f08018b
 int id slide 0x7f08018c
+int id slideimg 0x7f0801f4
+int id slider 0x7f0801f5
 int id snackbar_action 0x7f08018d
 int id snackbar_text 0x7f08018e
 int id snap 0x7f08018f
@@ -2456,6 +2459,7 @@ int layout activity_homepage 0x7f0b001d
 int layout activity_main 0x7f0b001e
 int layout activity_otpsend 0x7f0b001f
 int layout activity_otpverify 0x7f0b0020
+int layout activity_slide_show 0x7f0b007c
 int layout activity_splash_screen 0x7f0b0021
 int layout activity_travel_guide 0x7f0b0022
 int layout activity_travel_guide_details 0x7f0b0023
@@ -2529,6 +2533,7 @@ int layout notification_template_part_time 0x7f0b0066
 int layout select_dialog_item_material 0x7f0b0067
 int layout select_dialog_multichoice_material 0x7f0b0068
 int layout select_dialog_singlechoice_material 0x7f0b0069
+int layout slide_simple_view 0x7f0b007b
 int layout support_simple_spinner_dropdown_item 0x7f0b006a
 int layout test_action_chip 0x7f0b006b
 int layout test_chip_zero_corner_radius 0x7f0b006c

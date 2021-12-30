@@ -31,15 +31,14 @@ TextView title,description;
         Bundle extras=getIntent().getExtras();
         title.setText(extras.getString("title"));
         description.setText(extras.getString("descrip"));
-        String imglink=extras.getString("imglink");
-        if(!imglink.equals("")){
-            //display the image
-            Picasso.get().load(imglink).into(themeImage);
-            imglink="";
 
+
+        if(!extras.getString("imglink").equals("")){
+            //display the image
+            Picasso.get().load(extras.getString("imglink")).into(themeImage);
         }
         else{
-            //set the image source to default value
+            //set the image source to default value if no image link found
             themeImage.setImageResource(R.drawable.image1);
         }
 

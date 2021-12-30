@@ -16,6 +16,10 @@
         "source": "C:\\Users\\shovo\\GUB Life\\4yr\\CSE_402 lab\\Travellovisor\\Travellovisor\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
+        "merged": "C:\\Users\\shovo\\GUB Life\\4yr\\CSE_402 lab\\Travellovisor\\Travellovisor\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_slide_show.xml.flat",
+        "source": "C:\\Users\\shovo\\GUB Life\\4yr\\CSE_402 lab\\Travellovisor\\Travellovisor\\app\\src\\main\\res\\layout\\activity_slide_show.xml"
+    },
+    {
         "merged": "C:\\Users\\shovo\\GUB Life\\4yr\\CSE_402 lab\\Travellovisor\\Travellovisor\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\shovo\\GUB Life\\4yr\\CSE_402 lab\\Travellovisor\\Travellovisor\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
@@ -86,6 +90,10 @@
     {
         "merged": "C:\\Users\\shovo\\GUB Life\\4yr\\CSE_402 lab\\Travellovisor\\Travellovisor\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\shovo\\GUB Life\\4yr\\CSE_402 lab\\Travellovisor\\Travellovisor\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\shovo\\GUB Life\\4yr\\CSE_402 lab\\Travellovisor\\Travellovisor\\app\\build\\intermediates\\merged_res\\debug\\layout_slide_simple_view.xml.flat",
+        "source": "C:\\Users\\shovo\\GUB Life\\4yr\\CSE_402 lab\\Travellovisor\\Travellovisor\\app\\src\\main\\res\\layout\\slide_simple_view.xml"
     },
     {
         "merged": "C:\\Users\\shovo\\GUB Life\\4yr\\CSE_402 lab\\Travellovisor\\Travellovisor\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_perm_identity_24.xml.flat",

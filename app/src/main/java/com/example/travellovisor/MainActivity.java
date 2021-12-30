@@ -17,7 +17,8 @@ public class MainActivity extends AppCompatActivity {
 
         //redirects to homepage;
         //goToHomepage();
-        goToTravelGuide();
+        //goToTravelGuide();
+        goToSlideShow();
 
     }
     private void goToHomepage() {
@@ -27,6 +28,11 @@ public class MainActivity extends AppCompatActivity {
     }
     private void goToTravelGuide() {
         Intent intent=new Intent(this, TravelGuide.class);
+        startActivity(intent);
+        finish();
+    }
+    private void goToSlideShow() {
+        Intent intent=new Intent(this, SlideShow.class);
         startActivity(intent);
         finish();
     }

@@ -1290,6 +1290,7 @@ color teal_200
 color teal_700
 color test_mtrl_calendar_day
 color test_mtrl_calendar_day_selected
+color tomato
 color tooltip_background_dark
 color tooltip_background_light
 color white
@@ -2281,6 +2282,8 @@ id sin
 id skipCollapsed
 id skipped
 id slide
+id slideimg
+id slider
 id snackbar_action
 id snackbar_text
 id snap
@@ -2457,6 +2460,7 @@ layout activity_homepage
 layout activity_main
 layout activity_otpsend
 layout activity_otpverify
+layout activity_slide_show
 layout activity_splash_screen
 layout activity_travel_guide
 layout activity_travel_guide_details
@@ -2530,6 +2534,7 @@ layout notification_template_part_time
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
+layout slide_simple_view
 layout support_simple_spinner_dropdown_item
 layout test_action_chip
 layout test_chip_zero_corner_radius

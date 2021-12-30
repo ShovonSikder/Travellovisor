@@ -23,6 +23,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.Travellovisor" >
         <activity
+            android:name="com.example.travellovisor.SlideShow"
+            android:exported="true" />
+        <activity
             android:name="com.example.travellovisor.services.TravelGuideDetails"
             android:exported="true" />
         <activity
