@@ -1,15 +1,11 @@
 com/example/travellovisor/BuildConfig.java
  com.example.travellovisor.BuildConfig
-com/example/travellovisor/services/Guides.java
- com.example.travellovisor.services.Guides
 com/example/travellovisor/splash/SplashScreen.java
  com.example.travellovisor.splash.SplashScreen
 com/example/travellovisor/services/FindPlaces.java
  com.example.travellovisor.services.FindPlaces
 com/example/travellovisor/services/GuideListAdapter.java
  com.example.travellovisor.services.GuideListAdapter
-com/example/travellovisor/account/OTPverifyActivity.java
- com.example.travellovisor.account.OTPverifyActivity
 com/example/travellovisor/account/LoginActivity.java
  com.example.travellovisor.account.LoginActivity
  com.example.travellovisor.account.LoginActivity$1
@@ -24,8 +20,12 @@ com/example/travellovisor/account/OTPsendActivity.java
 com/example/travellovisor/services/TravelGuideDetails.java
  com.example.travellovisor.services.TravelGuideDetails
  com.example.travellovisor.services.TravelGuideDetails$1
+com/example/travellovisor/services/Guides.java
+ com.example.travellovisor.services.Guides
 com/example/travellovisor/MainActivity.java
  com.example.travellovisor.MainActivity
+com/example/travellovisor/account/OTPverifyActivity.java
+ com.example.travellovisor.account.OTPverifyActivity
 com/example/travellovisor/Homepage.java
  com.example.travellovisor.Homepage
  com.example.travellovisor.Homepage$1
