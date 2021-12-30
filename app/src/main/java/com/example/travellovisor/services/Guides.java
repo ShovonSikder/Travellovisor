@@ -5,6 +5,7 @@ public class Guides {
     String description;
     String imglink="";
 
+    //no value found
     public Guides() {
     }
 

@@ -42,7 +42,7 @@ DatabaseReference db;
         database=FirebaseDatabase.getInstance("https://travellovisor-829f1-default-rtdb.asia-southeast1.firebasedatabase.app");
         db=database.getReference("travelguides");
 
-       //Fetched data stored array
+       //Fetched data storage array
         ArrayList<Guides> guides= new ArrayList<Guides>();
 
         //Guides g1=new Guides("hi","Hello");
