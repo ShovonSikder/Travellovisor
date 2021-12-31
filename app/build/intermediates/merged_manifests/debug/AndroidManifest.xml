@@ -23,11 +23,20 @@
         android:testOnly="true"
         android:theme="@style/Theme.Travellovisor" >
         <activity
+            android:name="com.example.travellovisor.services.TourPackageDetails"
+            android:exported="true" />
+        <activity
+            android:name="com.example.travellovisor.SlideShow"
+            android:exported="true" />
+        <activity
+            android:name="com.example.travellovisor.services.TourPackages"
+            android:exported="true" />
+        <activity
             android:name="com.example.travellovisor.account.LoginActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name="com.example.travellovisor.account.RegistrationActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name="com.example.travellovisor.services.TravelGuideDetails"
             android:exported="true" />

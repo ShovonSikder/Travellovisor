@@ -3,12 +3,14 @@ package com.example.travellovisor.services;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -26,13 +28,13 @@ public class TravelGuide extends AppCompatActivity {
 ImageView search2;
 TextView buttonToPkg;
 ListView guideList;
-FirebaseDatabase database;
-DatabaseReference db;
+private FirebaseDatabase database;
+private DatabaseReference db;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_travel_guide);
-        System.out.println(db);
+
         //references
         search2=findViewById(R.id.search2);
         buttonToPkg=findViewById(R.id.butonToPkg);
@@ -51,6 +53,9 @@ DatabaseReference db;
         GuideListAdapter adapter=new GuideListAdapter(getApplicationContext(),guides);
         guideList.setAdapter(adapter);
 
+        ProgressDialog progress=new ProgressDialog(this);
+        progress.setMessage("Loading info...");
+        progress.show();
 
         guideList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -73,6 +78,8 @@ DatabaseReference db;
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 //on update clear previous data and store new
                 guides.clear();
+                progress.show();
+
                 for(DataSnapshot data: snapshot.getChildren()){
 
                     Guides g=data.getValue(Guides.class);
@@ -81,10 +88,12 @@ DatabaseReference db;
                 }
                 adapter.notifyDataSetChanged();
 
+                progress.dismiss();
             }
 
             @Override
             public void onCancelled(@NonNull DatabaseError error) {
+                progress.dismiss();
                 Toast.makeText(getApplicationContext(),error.toString(),Toast.LENGTH_LONG).show();
 
             }
@@ -94,8 +103,8 @@ DatabaseReference db;
         buttonToPkg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //
-                Toast.makeText(getApplicationContext(),"button clicked",Toast.LENGTH_LONG).show();
+                startActivity(new Intent(getApplicationContext(),TourPackages.class));
+
             }
         });
         //redirect to homepage on click on search icon

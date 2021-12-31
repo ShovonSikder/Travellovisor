@@ -13,6 +13,7 @@ import android.widget.Toast;
 
 import com.example.travellovisor.Homepage;
 import com.example.travellovisor.R;
+import com.example.travellovisor.services.TourPackageDetails;
 import com.example.travellovisor.services.TravelGuide;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -78,7 +79,7 @@ public class LoginActivity extends AppCompatActivity {
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if (task.isSuccessful()){
                     progressDialog.dismiss();
-                    sendToActivity();
+                    sendToActivity(getIntent().getStringExtra("reqFrom"));
                     Toast.makeText(getApplicationContext(), "Login Succesful", Toast.LENGTH_SHORT).show();
                 }
                 else
@@ -92,9 +93,17 @@ public class LoginActivity extends AppCompatActivity {
     }
 
 
-    private void sendToActivity() {
-        Intent i=new Intent(this, Homepage.class);
-        getIntent().setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK|Intent.FLAG_ACTIVITY_NEW_TASK);
-        startActivity(i);
+    private void sendToActivity(String reqFrom) {
+
+        if(reqFrom.equals("TPD")){
+            Intent i=new Intent(this, TourPackageDetails.class);
+            getIntent().setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK|Intent.FLAG_ACTIVITY_NEW_TASK);
+            startActivity(i);
+        }
+        else {
+            Intent i = new Intent(this, Homepage.class);
+            getIntent().setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+            startActivity(i);
+        }
     }
 }

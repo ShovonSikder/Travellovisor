@@ -13,11 +13,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Travellovisor">
         <activity
+            android:name=".services.TourPackageDetails"
+            android:exported="true"
+            />
+        <activity
+            android:name=".SlideShow"
+            android:exported="true" />
+        <activity
+            android:name=".services.TourPackages"
+            android:exported="true" />
+        <activity
             android:name=".account.LoginActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".account.RegistrationActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".services.TravelGuideDetails"
             android:exported="true" />

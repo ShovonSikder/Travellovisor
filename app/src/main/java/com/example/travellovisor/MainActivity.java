@@ -8,6 +8,8 @@ import android.widget.Button;
 
 import com.example.travellovisor.account.LoginActivity;
 import com.example.travellovisor.account.RegistrationActivity;
+import com.example.travellovisor.services.TourPackageDetails;
+import com.example.travellovisor.services.TourPackages;
 import com.example.travellovisor.services.TravelGuide;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -22,9 +24,13 @@ public class MainActivity extends AppCompatActivity {
 
 
         //redirects to homepage;
-        goToHomepage();
+        //goToHomepage();
         //goToTravelGuide();
         //goToRegistrationActivity();
+        //goToLogin();
+        //goToTourPackages();
+        //goToSlidShow();
+
 
 
     }
@@ -43,4 +49,26 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
         finish();
     }
+    private void goToLogin() {
+        Intent intent=new Intent(this, LoginActivity.class);
+        startActivity(intent);
+        finish();
+    }
+
+    private void goToSlidShow() {
+        Intent intent=new Intent(this, SlideShow.class);
+        startActivity(intent);
+        finish();
+    }
+
+    private void goToTourPackages(){
+        startActivity(new Intent(getApplicationContext(), TourPackages.class));
+        finish();
+    }
+    private void goToTourPackagesDetails(){
+        startActivity(new Intent(getApplicationContext(), TourPackageDetails.class));
+        finish();
+    }
+
+
 }
