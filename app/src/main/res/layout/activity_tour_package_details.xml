@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".services.TourPackageDetails">
+
+    <!--parent-->
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <!--Title & description-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/pkg_card_shape"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/butonToPkg"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/shapebuttonbackground"
+                android:gravity="center"
+                android:text="Enjoy your trip with Travellovisor"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/pkgname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Title here"
+                android:textColor="#050505"
+                android:textSize="25sp" />
+            <!--description could be overflow the area so we need a scroll view-->
+
+
+            <TextView
+                android:id="@+id/pkgid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="pkgId: "
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/pkgcost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Cost: "
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/pkgduration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Duration: "
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/traveldate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Date: "
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/hotel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Hotel: "
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/minimumperson"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Person: "
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+
+        </LinearLayout>
+
+        <!--extra info for booking-->
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:background="@drawable/pkg_card_shape"
+            android:orientation="vertical"
+            android:padding="2dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="@drawable/shapebuttonbackground"
+                android:gravity="center"
+                android:text="Extra info for booking"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <!--radio group for bed type-->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:background="@drawable/pkg_card_shape"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:background="@drawable/shapebuttonbackground"
+                        android:gravity="center"
+                        android:text="Bedroom type"
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+
+                    <RadioGroup
+                        android:id="@+id/bedroom"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingRight="5dp"
+
+                        >
+
+                        <RadioButton
+                            android:id="@+id/bsnscls"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:text="Business Class" />
+
+                        <RadioButton
+                            android:id="@+id/ecocls"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:text="Economic Class" />
+
+                        <RadioButton
+                            android:id="@+id/normalcls"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:text="Normal Class" />
+
+
+                    </RadioGroup>
+
+                </LinearLayout>
+                <!--radio group for transport type-->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="2dp"
+                    android:background="@drawable/pkg_card_shape"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/shapebuttonbackground"
+                        android:gravity="center"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:text="Transportation"
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+
+                    <RadioGroup
+                        android:id="@+id/transport"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/bus"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:text="Bus" />
+
+                        <RadioButton
+                            android:id="@+id/train"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:text="Train" />
+
+                        <RadioButton
+                            android:id="@+id/air"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:text="Air" />
+
+
+                    </RadioGroup>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <!--Submit button-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/foot">
+
+        <TextView
+            android:id="@+id/btnsubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/shapebuttonbackground"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Buy Package"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+    </RelativeLayout>
+    <!--footer-->
+    <RelativeLayout
+        android:id="@+id/foot"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#EECD59"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <ImageView
+            android:id="@+id/search1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/ic_baseline_search_24" />
+
+        <ImageView
+            android:id="@+id/currency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_baseline_monetization_on_24"
+
+            />
+
+        <ImageView
+            android:id="@+id/profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_baseline_perm_identity_24"
+
+            />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

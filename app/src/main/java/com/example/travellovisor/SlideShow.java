@@ -32,10 +32,13 @@ public class SlideShow extends AppCompatActivity {
         //references
         slider=findViewById(R.id.slider);
 
+
+        //adapter
         ArrayList<SlideImage> slides=new ArrayList<SlideImage>();
 
         SlideAdapter slideAdapter=new SlideAdapter(getApplicationContext(),slides);
         slider.setAdapter(slideAdapter);
+
 
 
         /*Timer task to perform auto scrolling using thread*/
