@@ -37,8 +37,6 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-
-
     private void goToHomepage() {
         Intent intent=new Intent(this, Homepage.class);
         startActivity(intent);
