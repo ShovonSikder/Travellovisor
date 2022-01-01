@@ -16,12 +16,12 @@
         "source": "E:\\Users\\conne\\StudioProjectssss\\Travellovisor\\app\\src\\main\\res\\drawable\\bg_blur.jpg"
     },
     {
-        "merged": "E:\\Users\\conne\\StudioProjectssss\\Travellovisor\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_login.xml.flat",
-        "source": "E:\\Users\\conne\\StudioProjectssss\\Travellovisor\\app\\src\\main\\res\\layout\\activity_login.xml"
-    },
-    {
         "merged": "E:\\Users\\conne\\StudioProjectssss\\Travellovisor\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_cloud_upload_24.xml.flat",
         "source": "E:\\Users\\conne\\StudioProjectssss\\Travellovisor\\app\\src\\main\\res\\drawable\\ic_baseline_cloud_upload_24.xml"
+    },
+    {
+        "merged": "E:\\Users\\conne\\StudioProjectssss\\Travellovisor\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_login.xml.flat",
+        "source": "E:\\Users\\conne\\StudioProjectssss\\Travellovisor\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
         "merged": "E:\\Users\\conne\\StudioProjectssss\\Travellovisor\\app\\build\\intermediates\\merged_res\\debug\\drawable_shapebuttonbackground.xml.flat",
@@ -36,8 +36,16 @@
         "source": "E:\\Users\\conne\\StudioProjectssss\\Travellovisor\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "E:\\Users\\conne\\StudioProjectssss\\Travellovisor\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_bus_time.xml.flat",
+        "source": "E:\\Users\\conne\\StudioProjectssss\\Travellovisor\\app\\src\\main\\res\\layout\\activity_bus_time.xml"
+    },
+    {
         "merged": "E:\\Users\\conne\\StudioProjectssss\\Travellovisor\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "E:\\Users\\conne\\StudioProjectssss\\Travellovisor\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "E:\\Users\\conne\\StudioProjectssss\\Travellovisor\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_bus_source2.xml.flat",
+        "source": "E:\\Users\\conne\\StudioProjectssss\\Travellovisor\\app\\src\\main\\res\\layout\\activity_bus_source2.xml"
     },
     {
         "merged": "E:\\Users\\conne\\StudioProjectssss\\Travellovisor\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
@@ -150,6 +158,14 @@
     {
         "merged": "E:\\Users\\conne\\StudioProjectssss\\Travellovisor\\app\\build\\intermediates\\merged_res\\debug\\drawable_pkg_card_shape.xml.flat",
         "source": "E:\\Users\\conne\\StudioProjectssss\\Travellovisor\\app\\src\\main\\res\\drawable\\pkg_card_shape.xml"
+    },
+    {
+        "merged": "E:\\Users\\conne\\StudioProjectssss\\Travellovisor\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_bus_destinantion.xml.flat",
+        "source": "E:\\Users\\conne\\StudioProjectssss\\Travellovisor\\app\\src\\main\\res\\layout\\activity_bus_destinantion.xml"
+    },
+    {
+        "merged": "E:\\Users\\conne\\StudioProjectssss\\Travellovisor\\app\\build\\intermediates\\merged_res\\debug\\layout_single_view_layout.xml.flat",
+        "source": "E:\\Users\\conne\\StudioProjectssss\\Travellovisor\\app\\src\\main\\res\\layout\\single_view_layout.xml"
     },
     {
         "merged": "E:\\Users\\conne\\StudioProjectssss\\Travellovisor\\app\\build\\intermediates\\merged_res\\debug\\drawable_transparent_bg.xml.flat",

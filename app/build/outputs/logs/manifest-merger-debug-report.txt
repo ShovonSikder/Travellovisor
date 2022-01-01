@@ -1,9 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:2:1-60:12
-INJECTED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:2:1-60:12
-INJECTED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:2:1-60:12
-INJECTED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:2:1-60:12
+ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:2:1-68:12
+MERGED from [com.firebaseui:firebase-ui-database:8.0.0] C:\Users\conne\.gradle\caches\transforms-3\4eb417843d69b927295683ce8d3f6c89\transformed\jetified-firebase-ui-database-8.0.0\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:firebase-database:20.0.3] C:\Users\conne\.gradle\caches\transforms-3\fdcf3172eb58868b6cde8efd15c88446\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:15:1-38:12
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\conne\.gradle\caches\transforms-3\77a52929ceee66ca0ffc8f3218aa76ba\transformed\jetified-picasso-2.71828\AndroidManifest.xml:2:1-14:12
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\conne\.gradle\caches\transforms-3\c2e76fb5e086b5c906002f45c03cd24a\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
@@ -15,7 +16,10 @@ MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\conne\.g
 MERGED from [com.google.firebase:firebase-common:20.0.0] C:\Users\conne\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:15:1-40:12
 MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\conne\.gradle\caches\transforms-3\82f0742619c93bff749e298ff0daa035\transformed\jetified-firebase-components-17.0.0\AndroidManifest.xml:15:1-23:12
 MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\8f2ac2f66ecbb08db60eaf93a9f6f260\transformed\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.firebaseui:firebase-ui-common:8.0.0] C:\Users\conne\.gradle\caches\transforms-3\5a0ea611cecebdc34744e05d3aba96ee\transformed\jetified-firebase-ui-common-8.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\8fd6eea0562aea14f3bc71e06ead11c9\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\conne\.gradle\caches\transforms-3\b00b0944b6a8badaa1ca41cd8411502a\transformed\recyclerview-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\7bc9124ddd25bef25a020b51d9d428ba\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-database-collection:18.0.0] C:\Users\conne\.gradle\caches\transforms-3\9a37503f4125aeb8aff9eebad867370d\transformed\jetified-firebase-database-collection-18.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\conne\.gradle\caches\transforms-3\d244694a7cf60b68f6360e6d4d149cbd\transformed\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\conne\.gradle\caches\transforms-3\d39720dfd11c84abbb1765362ab7e280\transformed\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:17:1-24:12
@@ -35,12 +39,12 @@ MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\conne\.g
 MERGED from [androidx.transition:transition:1.2.0] C:\Users\conne\.gradle\caches\transforms-3\270f36836ed73a45dbff76b561bed474\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\conne\.gradle\caches\transforms-3\781dd23490527cfee6df6b2cc663fc9a\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\conne\.gradle\caches\transforms-3\fb357798e0a06fc931bb8f4dac764065\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\f0e1dca14b5ed3fe159b41cdf0cbf790\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\bc549059837f713a6813ae954483e241\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\d7d271375ded6eff316edd27ceb0072d\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\21aff1fa3790b705ad8e19b1c47e0d56\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\conne\.gradle\caches\transforms-3\52b8a03cfc4c20a0c9c78819018423c4\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\f0e1dca14b5ed3fe159b41cdf0cbf790\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\fbf631149de996a78c67c939d36f7655\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\cd32edd474bb2a02875747f09057a6e3\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\21aff1fa3790b705ad8e19b1c47e0d56\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\634062af7ba6565b6ce63935447f68fe\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\343c797141be332cf662fb965493c0b7\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.7.0] C:\Users\conne\.gradle\caches\transforms-3\c7220573e40aa30730232dde3fd8eccf\transformed\core-1.7.0\AndroidManifest.xml:17:1-26:12
@@ -50,37 +54,40 @@ MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\conne\.gradle\caches
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\conne\.gradle\caches\transforms-3\0ec9a63f72234c6a7cb0667c5156537a\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\b5a1dde354f7afc013622ec6eac7dc84\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\8d4069d8883cd35818f5c173a3837002\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\conne\.gradle\caches\transforms-3\4a2dc31dca41ceabe72d8efa19d292bf\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\conne\.gradle\caches\transforms-3\62e87c3cfe17c830dad51da22e55359f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:17:1-37:12
-MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\6e2cdf1f1e9a31a51efd2c74a8f81718\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\59b41095d2f1061113aab46acc35c68a\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.paging:paging-rxjava3:3.0.0] C:\Users\conne\.gradle\caches\transforms-3\12c0da64720b61a1b079bef240540a55\transformed\jetified-paging-rxjava3-3.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\conne\.gradle\caches\transforms-3\cdbb0a5ed9226eb4b8198249161f9ff2\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\conne\.gradle\caches\transforms-3\869e87640d2ab98ed21d3c10b182f739\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\conne\.gradle\caches\transforms-3\62e87c3cfe17c830dad51da22e55359f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:17:1-37:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\conne\.gradle\caches\transforms-3\11012e34cfa220e9f58a7d557643f386\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\conne\.gradle\caches\transforms-3\9692f4eff85761d20785aa5053f9ebcb\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\conne\.gradle\caches\transforms-3\4a2dc31dca41ceabe72d8efa19d292bf\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\6e2cdf1f1e9a31a51efd2c74a8f81718\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\59b41095d2f1061113aab46acc35c68a\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\d3f87aa4861bbafadab8253cbbec58bc\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\783b035d32ce5be15ab468001bd7362a\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\84046498be48793439a4476136a93af1\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\conne\.gradle\caches\transforms-3\737d9ff2c32889bb2521aaf2bc07e3c5\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:2:1-60:12
-INJECTED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:2:1-60:12
-INJECTED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:2:1-68:12
+INJECTED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:2:1-68:12
 	package
 		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:3:5-40
 		INJECTED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml
 		INJECTED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml
-		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:2:1-60:12
+		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:2:1-68:12
 		INJECTED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml
-		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:2:1-60:12
+		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:2:1-68:12
 		INJECTED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
 ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.firebaseui:firebase-ui-database:8.0.0] C:\Users\conne\.gradle\caches\transforms-3\4eb417843d69b927295683ce8d3f6c89\transformed\jetified-firebase-ui-database-8.0.0\AndroidManifest.xml:9:5-67
+MERGED from [com.firebaseui:firebase-ui-database:8.0.0] C:\Users\conne\.gradle\caches\transforms-3\4eb417843d69b927295683ce8d3f6c89\transformed\jetified-firebase-ui-database-8.0.0\AndroidManifest.xml:9:5-67
 MERGED from [com.google.firebase:firebase-database:20.0.3] C:\Users\conne\.gradle\caches\transforms-3\fdcf3172eb58868b6cde8efd15c88446\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:26:5-67
 MERGED from [com.google.firebase:firebase-database:20.0.3] C:\Users\conne\.gradle\caches\transforms-3\fdcf3172eb58868b6cde8efd15c88446\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:26:5-67
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\conne\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:23:5-67
@@ -96,7 +103,7 @@ MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\conne\.gradle\ca
 	android:name
 		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:6:22-76
 application
-ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:8:5-58:19
+ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:8:5-66:19
 MERGED from [com.google.firebase:firebase-database:20.0.3] C:\Users\conne\.gradle\caches\transforms-3\fdcf3172eb58868b6cde8efd15c88446\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:28:5-36:19
 MERGED from [com.google.firebase:firebase-database:20.0.3] C:\Users\conne\.gradle\caches\transforms-3\fdcf3172eb58868b6cde8efd15c88446\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:28:5-36:19
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\conne\.gradle\caches\transforms-3\77a52929ceee66ca0ffc8f3218aa76ba\transformed\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
@@ -125,10 +132,10 @@ MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\conne\.gradle\caches\transfo
 MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\4b60651704c7d8651ad2c3503bb38c73\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
 MERGED from [androidx.core:core:1.7.0] C:\Users\conne\.gradle\caches\transforms-3\c7220573e40aa30730232dde3fd8eccf\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.7.0] C:\Users\conne\.gradle\caches\transforms-3\c7220573e40aa30730232dde3fd8eccf\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\conne\.gradle\caches\transforms-3\4a2dc31dca41ceabe72d8efa19d292bf\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\conne\.gradle\caches\transforms-3\4a2dc31dca41ceabe72d8efa19d292bf\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\conne\.gradle\caches\transforms-3\62e87c3cfe17c830dad51da22e55359f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\conne\.gradle\caches\transforms-3\62e87c3cfe17c830dad51da22e55359f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\conne\.gradle\caches\transforms-3\4a2dc31dca41ceabe72d8efa19d292bf\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\conne\.gradle\caches\transforms-3\4a2dc31dca41ceabe72d8efa19d292bf\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\6e2cdf1f1e9a31a51efd2c74a8f81718\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\6e2cdf1f1e9a31a51efd2c74a8f81718\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
 	android:appComponentFactory
@@ -145,92 +152,112 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\conne\.gradle\cach
 		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:9:9-35
 	android:theme
 		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:14:9-51
+activity#com.example.travellovisor.BusTime
+ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:15:9-17:40
+	android:exported
+		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:17:13-37
+	android:name
+		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:16:13-36
+activity#com.example.travellovisor.transportation.Bus_Source
+ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:18:9-20:40
+	android:exported
+		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:20:13-37
+	android:name
+		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:19:13-54
+activity#com.example.travellovisor.transportation.BusDestination
+ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:21:9-23:40
+	android:exported
+		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:23:13-37
+	android:name
+		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:22:13-58
 activity#com.example.travellovisor.services.TourPackageDetails
-ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:15:9-18:15
+ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:24:9-26:39
 	android:exported
-		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:17:13-36
+		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:26:13-36
 	android:name
-		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:16:13-56
+		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:25:13-56
 activity#com.example.travellovisor.SlideShow
-ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:19:9-21:39
+ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:27:9-29:39
 	android:exported
-		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:21:13-36
+		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:29:13-36
 	android:name
-		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:20:13-38
+		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:28:13-38
 activity#com.example.travellovisor.services.TourPackages
-ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:22:9-24:39
+ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:30:9-32:39
 	android:exported
-		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:24:13-36
+		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:32:13-36
 	android:name
-		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:23:13-50
+		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:31:13-50
 activity#com.example.travellovisor.account.LoginActivity
-ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:25:9-27:39
+ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:33:9-35:39
 	android:exported
-		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:27:13-36
+		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:35:13-36
 	android:name
-		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:26:13-50
+		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:34:13-50
 activity#com.example.travellovisor.account.RegistrationActivity
-ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:28:9-30:39
+ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:36:9-38:39
 	android:exported
-		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:30:13-36
+		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:38:13-36
 	android:name
-		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:29:13-57
+		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:37:13-57
 activity#com.example.travellovisor.services.TravelGuideDetails
-ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:31:9-33:39
+ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:39:9-41:39
 	android:exported
-		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:33:13-36
+		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:41:13-36
 	android:name
-		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:32:13-56
+		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:40:13-56
 activity#com.example.travellovisor.services.TravelGuide
-ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:34:9-36:39
+ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:42:9-44:39
 	android:exported
-		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:36:13-36
+		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:44:13-36
 	android:name
-		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:35:13-49
+		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:43:13-49
 activity#com.example.travellovisor.services.FindPlaces
-ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:37:9-39:40
+ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:45:9-47:40
 	android:exported
-		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:39:13-37
-	android:name
-		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:38:13-48
-activity#com.example.travellovisor.account.OTPverifyActivity
-ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:40:9-42:40
-	android:exported
-		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:42:13-37
-	android:name
-		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:41:13-54
-activity#com.example.travellovisor.account.OTPsendActivity
-ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:43:9-45:40
-	android:exported
-		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:45:13-37
-	android:name
-		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:44:13-52
-activity#com.example.travellovisor.Homepage
-ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:46:9-48:40
-	android:exported
-		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:48:13-37
-	android:name
 		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:47:13-37
-activity#com.example.travellovisor.MainActivity
-ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:49:9-57:20
+	android:name
+		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:46:13-48
+activity#com.example.travellovisor.account.OTPverifyActivity
+ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:48:9-50:40
 	android:exported
-		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:51:13-36
+		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:50:13-37
 	android:name
-		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:50:13-41
+		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:49:13-54
+activity#com.example.travellovisor.account.OTPsendActivity
+ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:51:9-53:40
+	android:exported
+		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:53:13-37
+	android:name
+		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:52:13-52
+activity#com.example.travellovisor.Homepage
+ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:54:9-56:40
+	android:exported
+		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:56:13-37
+	android:name
+		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:55:13-37
+activity#com.example.travellovisor.MainActivity
+ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:57:9-65:20
+	android:exported
+		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:59:13-36
+	android:name
+		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:58:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:52:13-56:29
+ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:60:13-64:29
 action#android.intent.action.MAIN
-ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:53:17-69
+ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:61:17-69
 	android:name
-		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:53:25-66
+		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:61:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:55:17-77
+ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:63:17-77
 	android:name
-		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:55:27-74
+		ADDED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml:63:27-74
 uses-sdk
 INJECTED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml
 INJECTED from E:\Users\conne\StudioProjectssss\Travellovisor\app\src\main\AndroidManifest.xml
+MERGED from [com.firebaseui:firebase-ui-database:8.0.0] C:\Users\conne\.gradle\caches\transforms-3\4eb417843d69b927295683ce8d3f6c89\transformed\jetified-firebase-ui-database-8.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.firebaseui:firebase-ui-database:8.0.0] C:\Users\conne\.gradle\caches\transforms-3\4eb417843d69b927295683ce8d3f6c89\transformed\jetified-firebase-ui-database-8.0.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-database:20.0.3] C:\Users\conne\.gradle\caches\transforms-3\fdcf3172eb58868b6cde8efd15c88446\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-database:20.0.3] C:\Users\conne\.gradle\caches\transforms-3\fdcf3172eb58868b6cde8efd15c88446\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:19:5-21:41
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\conne\.gradle\caches\transforms-3\77a52929ceee66ca0ffc8f3218aa76ba\transformed\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
@@ -253,8 +280,14 @@ MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\conne\.gra
 MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\conne\.gradle\caches\transforms-3\82f0742619c93bff749e298ff0daa035\transformed\jetified-firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\8f2ac2f66ecbb08db60eaf93a9f6f260\transformed\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\8f2ac2f66ecbb08db60eaf93a9f6f260\transformed\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.firebaseui:firebase-ui-common:8.0.0] C:\Users\conne\.gradle\caches\transforms-3\5a0ea611cecebdc34744e05d3aba96ee\transformed\jetified-firebase-ui-common-8.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.firebaseui:firebase-ui-common:8.0.0] C:\Users\conne\.gradle\caches\transforms-3\5a0ea611cecebdc34744e05d3aba96ee\transformed\jetified-firebase-ui-common-8.0.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\8fd6eea0562aea14f3bc71e06ead11c9\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\8fd6eea0562aea14f3bc71e06ead11c9\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\conne\.gradle\caches\transforms-3\b00b0944b6a8badaa1ca41cd8411502a\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\conne\.gradle\caches\transforms-3\b00b0944b6a8badaa1ca41cd8411502a\transformed\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\7bc9124ddd25bef25a020b51d9d428ba\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\7bc9124ddd25bef25a020b51d9d428ba\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-database-collection:18.0.0] C:\Users\conne\.gradle\caches\transforms-3\9a37503f4125aeb8aff9eebad867370d\transformed\jetified-firebase-database-collection-18.0.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-database-collection:18.0.0] C:\Users\conne\.gradle\caches\transforms-3\9a37503f4125aeb8aff9eebad867370d\transformed\jetified-firebase-database-collection-18.0.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\conne\.gradle\caches\transforms-3\d244694a7cf60b68f6360e6d4d149cbd\transformed\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:5:5-44
@@ -293,18 +326,18 @@ MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\con
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\conne\.gradle\caches\transforms-3\781dd23490527cfee6df6b2cc663fc9a\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\conne\.gradle\caches\transforms-3\fb357798e0a06fc931bb8f4dac764065\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\conne\.gradle\caches\transforms-3\fb357798e0a06fc931bb8f4dac764065\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\f0e1dca14b5ed3fe159b41cdf0cbf790\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\f0e1dca14b5ed3fe159b41cdf0cbf790\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\bc549059837f713a6813ae954483e241\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\bc549059837f713a6813ae954483e241\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\d7d271375ded6eff316edd27ceb0072d\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\d7d271375ded6eff316edd27ceb0072d\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\21aff1fa3790b705ad8e19b1c47e0d56\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\21aff1fa3790b705ad8e19b1c47e0d56\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\conne\.gradle\caches\transforms-3\52b8a03cfc4c20a0c9c78819018423c4\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\conne\.gradle\caches\transforms-3\52b8a03cfc4c20a0c9c78819018423c4\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\f0e1dca14b5ed3fe159b41cdf0cbf790\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\f0e1dca14b5ed3fe159b41cdf0cbf790\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\fbf631149de996a78c67c939d36f7655\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\fbf631149de996a78c67c939d36f7655\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\cd32edd474bb2a02875747f09057a6e3\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\cd32edd474bb2a02875747f09057a6e3\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\21aff1fa3790b705ad8e19b1c47e0d56\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\21aff1fa3790b705ad8e19b1c47e0d56\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\634062af7ba6565b6ce63935447f68fe\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\634062af7ba6565b6ce63935447f68fe\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\343c797141be332cf662fb965493c0b7\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
@@ -323,22 +356,24 @@ MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\conne\.gradle\caches\tra
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\b5a1dde354f7afc013622ec6eac7dc84\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\8d4069d8883cd35818f5c173a3837002\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\8d4069d8883cd35818f5c173a3837002\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\conne\.gradle\caches\transforms-3\4a2dc31dca41ceabe72d8efa19d292bf\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\conne\.gradle\caches\transforms-3\4a2dc31dca41ceabe72d8efa19d292bf\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\conne\.gradle\caches\transforms-3\62e87c3cfe17c830dad51da22e55359f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\conne\.gradle\caches\transforms-3\62e87c3cfe17c830dad51da22e55359f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\6e2cdf1f1e9a31a51efd2c74a8f81718\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\6e2cdf1f1e9a31a51efd2c74a8f81718\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\59b41095d2f1061113aab46acc35c68a\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\59b41095d2f1061113aab46acc35c68a\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.paging:paging-rxjava3:3.0.0] C:\Users\conne\.gradle\caches\transforms-3\12c0da64720b61a1b079bef240540a55\transformed\jetified-paging-rxjava3-3.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.paging:paging-rxjava3:3.0.0] C:\Users\conne\.gradle\caches\transforms-3\12c0da64720b61a1b079bef240540a55\transformed\jetified-paging-rxjava3-3.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\conne\.gradle\caches\transforms-3\cdbb0a5ed9226eb4b8198249161f9ff2\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\conne\.gradle\caches\transforms-3\cdbb0a5ed9226eb4b8198249161f9ff2\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\conne\.gradle\caches\transforms-3\869e87640d2ab98ed21d3c10b182f739\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\conne\.gradle\caches\transforms-3\869e87640d2ab98ed21d3c10b182f739\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\conne\.gradle\caches\transforms-3\62e87c3cfe17c830dad51da22e55359f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\conne\.gradle\caches\transforms-3\62e87c3cfe17c830dad51da22e55359f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\conne\.gradle\caches\transforms-3\11012e34cfa220e9f58a7d557643f386\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\conne\.gradle\caches\transforms-3\11012e34cfa220e9f58a7d557643f386\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\conne\.gradle\caches\transforms-3\9692f4eff85761d20785aa5053f9ebcb\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\conne\.gradle\caches\transforms-3\9692f4eff85761d20785aa5053f9ebcb\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\conne\.gradle\caches\transforms-3\4a2dc31dca41ceabe72d8efa19d292bf\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\conne\.gradle\caches\transforms-3\4a2dc31dca41ceabe72d8efa19d292bf\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\6e2cdf1f1e9a31a51efd2c74a8f81718\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\6e2cdf1f1e9a31a51efd2c74a8f81718\transformed\jetified-startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\59b41095d2f1061113aab46acc35c68a\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\59b41095d2f1061113aab46acc35c68a\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\d3f87aa4861bbafadab8253cbbec58bc\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\d3f87aa4861bbafadab8253cbbec58bc\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\conne\.gradle\caches\transforms-3\783b035d32ce5be15ab468001bd7362a\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
