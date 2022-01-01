@@ -1261,6 +1261,7 @@ int color mtrl_textinput_focused_box_stroke_color 0x7f0500c1
 int color mtrl_textinput_hovered_box_stroke_color 0x7f0500c2
 int color notification_action_color_filter 0x7f0500c3
 int color notification_icon_bg_color 0x7f0500c4
+int color notification_material_background_media_default_color 0x7f0500e5
 int color primary_dark_material_dark 0x7f0500c5
 int color primary_dark_material_light 0x7f0500c6
 int color primary_material_dark 0x7f0500c7
@@ -1290,6 +1291,7 @@ int color teal_700 0x7f0500de
 int color test_mtrl_calendar_day 0x7f0500df
 int color test_mtrl_calendar_day_selected 0x7f0500e0
 int color tomato 0x7f0500e1
+int color tomato_def 0x7f0500e6
 int color tooltip_background_dark 0x7f0500e2
 int color tooltip_background_light 0x7f0500e3
 int color white 0x7f0500e4
@@ -1697,6 +1699,10 @@ int dimen notification_small_icon_size_as_large 0x7f060190
 int dimen notification_subtext_size 0x7f060191
 int dimen notification_top_pad 0x7f060192
 int dimen notification_top_pad_large_text 0x7f060193
+int dimen subtitle_corner_radius 0x7f0601a8
+int dimen subtitle_outline_width 0x7f0601a9
+int dimen subtitle_shadow_offset 0x7f0601aa
+int dimen subtitle_shadow_radius 0x7f0601ab
 int dimen test_mtrl_calendar_day_cornerSize 0x7f060194
 int dimen test_navigation_bar_active_item_max_width 0x7f060195
 int dimen test_navigation_bar_active_item_min_width 0x7f060196
@@ -1939,6 +1945,7 @@ int id accessibility_custom_action_6 0x7f08002c
 int id accessibility_custom_action_7 0x7f08002d
 int id accessibility_custom_action_8 0x7f08002e
 int id accessibility_custom_action_9 0x7f08002f
+int id action0 0x7f080212
 int id actionDown 0x7f080030
 int id actionDownUp 0x7f080031
 int id actionUp 0x7f080032
@@ -2007,6 +2014,7 @@ int id butonToPkg 0x7f080070
 int id buttonPanel 0x7f080071
 int id cache_measures 0x7f080072
 int id callMeasure 0x7f080073
+int id cancel_action 0x7f080213
 int id cancel_button 0x7f080074
 int id carryVelocity 0x7f080075
 int id center 0x7f080076
@@ -2086,6 +2094,7 @@ int id edit_query 0x7f0800bf
 int id elastic 0x7f0800c0
 int id end 0x7f0800c1
 int id endToStart 0x7f0800c2
+int id end_padder 0x7f080214
 int id enterAlways 0x7f0800c3
 int id enterAlwaysCollapsed 0x7f0800c4
 int id et_email 0x7f0800c5
@@ -2183,6 +2192,7 @@ int id material_timepicker_mode_button 0x7f080120
 int id material_timepicker_ok_button 0x7f080121
 int id material_timepicker_view 0x7f080122
 int id material_value_index 0x7f080123
+int id media_actions 0x7f080215
 int id message 0x7f080124
 int id middle 0x7f080125
 int id mini 0x7f080126
@@ -2267,6 +2277,7 @@ int id progress_horizontal 0x7f080174
 int id radio 0x7f080175
 int id ratio 0x7f080176
 int id rectangles 0x7f080177
+int id recyclerView_rv 0x7f080216
 int id reverseSawtooth 0x7f080178
 int id right 0x7f080179
 int id rightToLeft 0x7f08017a
@@ -2334,6 +2345,7 @@ int id startToEnd 0x7f0801b7
 int id startVertical 0x7f0801b8
 int id staticLayout 0x7f0801b9
 int id staticPostLayout 0x7f0801ba
+int id status_bar_latest_event_content 0x7f080217
 int id stop 0x7f0801bb
 int id stretch 0x7f0801bc
 int id submenuarrow 0x7f0801bd
@@ -2394,6 +2406,8 @@ int id transition_transform 0x7f0801f3
 int id transport 0x7f0801f4
 int id traveldate 0x7f0801f5
 int id triangle 0x7f0801f6
+int id tv_1 0x7f080218
+int id tv_2 0x7f080219
 int id tv_goto_login 0x7f0801f7
 int id tv_goto_register 0x7f0801f8
 int id tv_login 0x7f0801f9
@@ -2489,6 +2503,9 @@ int layout abc_search_dropdown_item_icons_2line 0x7f0b0018
 int layout abc_search_view 0x7f0b0019
 int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
+int layout activity_bus_destinantion 0x7f0b0081
+int layout activity_bus_source2 0x7f0b0082
+int layout activity_bus_time 0x7f0b008d
 int layout activity_find_places 0x7f0b001c
 int layout activity_homepage 0x7f0b001d
 int layout activity_login 0x7f0b001e
@@ -2565,13 +2582,23 @@ int layout mtrl_picker_text_input_date 0x7f0b0064
 int layout mtrl_picker_text_input_date_range 0x7f0b0065
 int layout notification_action 0x7f0b0066
 int layout notification_action_tombstone 0x7f0b0067
+int layout notification_media_action 0x7f0b0083
+int layout notification_media_cancel_action 0x7f0b0084
+int layout notification_template_big_media 0x7f0b0085
+int layout notification_template_big_media_custom 0x7f0b0086
+int layout notification_template_big_media_narrow 0x7f0b0087
+int layout notification_template_big_media_narrow_custom 0x7f0b0088
 int layout notification_template_custom_big 0x7f0b0068
 int layout notification_template_icon_group 0x7f0b0069
+int layout notification_template_lines_media 0x7f0b0089
+int layout notification_template_media 0x7f0b008a
+int layout notification_template_media_custom 0x7f0b008b
 int layout notification_template_part_chronometer 0x7f0b006a
 int layout notification_template_part_time 0x7f0b006b
 int layout select_dialog_item_material 0x7f0b006c
 int layout select_dialog_multichoice_material 0x7f0b006d
 int layout select_dialog_singlechoice_material 0x7f0b006e
+int layout single_view_layout 0x7f0b008c
 int layout slide_simple_view 0x7f0b006f
 int layout support_simple_spinner_dropdown_item 0x7f0b0070
 int layout test_action_chip 0x7f0b0071
@@ -3081,9 +3108,14 @@ int style TextAppearance_AppCompat_Widget_Switch 0x7f10015f
 int style TextAppearance_AppCompat_Widget_TextView_SpinnerItem 0x7f100160
 int style TextAppearance_Compat_Notification 0x7f100161
 int style TextAppearance_Compat_Notification_Info 0x7f100162
+int style TextAppearance_Compat_Notification_Info_Media 0x7f1002d2
 int style TextAppearance_Compat_Notification_Line2 0x7f100163
+int style TextAppearance_Compat_Notification_Line2_Media 0x7f1002d3
+int style TextAppearance_Compat_Notification_Media 0x7f1002d4
 int style TextAppearance_Compat_Notification_Time 0x7f100164
+int style TextAppearance_Compat_Notification_Time_Media 0x7f1002d5
 int style TextAppearance_Compat_Notification_Title 0x7f100165
+int style TextAppearance_Compat_Notification_Title_Media 0x7f1002d6
 int style TextAppearance_Design_CollapsingToolbar_Expanded 0x7f100166
 int style TextAppearance_Design_Counter 0x7f100167
 int style TextAppearance_Design_Counter_Overflow 0x7f100168

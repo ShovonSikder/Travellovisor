@@ -23,6 +23,15 @@
         android:testOnly="true"
         android:theme="@style/Theme.Travellovisor" >
         <activity
+            android:name="com.example.travellovisor.BusTime"
+            android:exported="false" />
+        <activity
+            android:name="com.example.travellovisor.transportation.Bus_Source"
+            android:exported="false" />
+        <activity
+            android:name="com.example.travellovisor.transportation.BusDestination"
+            android:exported="false" />
+        <activity
             android:name="com.example.travellovisor.services.TourPackageDetails"
             android:exported="true" />
         <activity
