@@ -23,6 +23,15 @@
         android:testOnly="true"
         android:theme="@style/Theme.Travellovisor" >
         <activity
+            android:name="com.example.travellovisor.YourPackageList"
+            android:exported="true" />
+        <activity
+            android:name="com.example.travellovisor.YourTourPackage"
+            android:exported="true" />
+        <activity
+            android:name="com.example.travellovisor.UsersProfile"
+            android:exported="true" />
+        <activity
             android:name="com.example.travellovisor.services.TourPackageDetails"
             android:exported="true" />
         <activity

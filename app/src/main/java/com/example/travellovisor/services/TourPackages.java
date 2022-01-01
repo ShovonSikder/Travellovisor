@@ -20,6 +20,7 @@ import com.example.travellovisor.Homepage;
 import com.example.travellovisor.R;
 import com.example.travellovisor.SlideAdapter;
 import com.example.travellovisor.SlideImage;
+import com.example.travellovisor.UsersProfile;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -32,7 +33,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 public class TourPackages extends AppCompatActivity {
-    ImageView search2;
+    ImageView search2,profile2;
     TextView buttonToGuide;
     ListView pkgList;
     ViewPager slider;
@@ -51,6 +52,7 @@ public class TourPackages extends AppCompatActivity {
         buttonToGuide=findViewById(R.id.butonToGuide);
         pkgList=findViewById(R.id.pkgList);
         slider=findViewById(R.id.slider);
+        profile2=findViewById(R.id.profile2);
 
 
         //adapter for slide show
@@ -154,6 +156,13 @@ public class TourPackages extends AppCompatActivity {
                 Intent intent=new Intent(getApplicationContext(), Homepage.class);
                 startActivity(intent);
                 finish();
+            }
+        });
+
+        profile2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(),UsersProfile.class));
             }
         });
     }

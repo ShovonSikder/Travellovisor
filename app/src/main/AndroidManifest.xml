@@ -13,9 +13,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Travellovisor">
         <activity
+            android:name=".YourPackageList"
+            android:exported="true" />
+        <activity
+            android:name=".YourTourPackage"
+            android:exported="true" />
+        <activity
+            android:name=".UsersProfile"
+            android:exported="true" />
+        <activity
             android:name=".services.TourPackageDetails"
-            android:exported="true"
-            />
+            android:exported="true" />
         <activity
             android:name=".SlideShow"
             android:exported="true" />

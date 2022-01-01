@@ -26,10 +26,12 @@ public class MainActivity extends AppCompatActivity {
         //redirects to homepage;
         //goToHomepage();
         //goToTravelGuide();
-        //goToRegistrationActivity();
+       // goToRegistrationActivity();
         //goToLogin();
         //goToTourPackages();
         //goToSlidShow();
+        //goToUserProfile();
+        //goToYourTourPackage();
 
 
 
@@ -65,6 +67,14 @@ public class MainActivity extends AppCompatActivity {
     }
     private void goToTourPackagesDetails(){
         startActivity(new Intent(getApplicationContext(), TourPackageDetails.class));
+        finish();
+    }
+    private void goToUserProfile(){
+        startActivity(new Intent(getApplicationContext(), UsersProfile.class));
+        finish();
+    }
+    private void goToYourTourPackage(){
+        startActivity(new Intent(getApplicationContext(), YourTourPackage.class));
         finish();
     }
 

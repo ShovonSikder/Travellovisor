@@ -1801,6 +1801,7 @@ drawable avd_hide_password
 drawable avd_show_password
 drawable bg_blur
 drawable bg_blurr
+drawable blankprofilepicture
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1809,6 +1810,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable circle_shape
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -1835,7 +1837,9 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable ic_baseline_backpack_24
 drawable ic_baseline_cloud_upload_24
+drawable ic_baseline_delete_forever_24
 drawable ic_baseline_monetization_on_24
 drawable ic_baseline_perm_identity_24
 drawable ic_baseline_search_24
@@ -1890,6 +1894,7 @@ drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable transparent_bg
+drawable travellogo
 drawable tvl_logo_white
 drawable tvllogo
 id ALT
@@ -2113,6 +2118,7 @@ id ghost_view_holder
 id gone
 id graph
 id graph_wrap
+id greet
 id group_divider
 id grouping
 id groups
@@ -2162,6 +2168,7 @@ id linearLayout
 id linearLayout1
 id listMode
 id list_item
+id logo
 id masked
 id match_constraint
 id match_parent
@@ -2255,7 +2262,9 @@ id peekHeight
 id percent
 id pin
 id pkgList
+id pkgList1
 id pkgcost
+id pkgdelete
 id pkgduration
 id pkgid
 id pkgname
@@ -2263,6 +2272,7 @@ id position
 id postLayout
 id profile
 id profile2
+id profileImg
 id progress_circular
 id progress_horizontal
 id radio
@@ -2312,6 +2322,7 @@ id skipped
 id slide
 id slideimg
 id slider
+id slider1
 id snackbar_action
 id snackbar_text
 id snap
@@ -2384,6 +2395,7 @@ id toggle
 id top
 id topPanel
 id touch_outside
+id tourpkg
 id train
 id transitionToEnd
 id transitionToStart
@@ -2421,6 +2433,14 @@ id wrap_content
 id wrap_content_constrained
 id x_left
 id x_right
+id yhotel
+id yminimumperson
+id yourpkg
+id ypkgcost
+id ypkgduration
+id ypkgid
+id ypkgname
+id ytraveldate
 id zero_corner_chip
 integer abc_config_activityDefaultDur
 integer abc_config_activityShortDur
@@ -2503,6 +2523,9 @@ layout activity_tour_package_details
 layout activity_tour_packages
 layout activity_travel_guide
 layout activity_travel_guide_details
+layout activity_users_profile
+layout activity_your_package_list
+layout activity_your_tour_package
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog

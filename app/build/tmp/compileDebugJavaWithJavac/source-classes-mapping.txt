@@ -1,41 +1,67 @@
 com/example/travellovisor/BuildConfig.java
  com.example.travellovisor.BuildConfig
+com/example/travellovisor/services/PackageTour.java
+ com.example.travellovisor.services.PackageTour
+com/example/travellovisor/SlideAdapter.java
+ com.example.travellovisor.SlideAdapter
+com/example/travellovisor/SlideImage.java
+ com.example.travellovisor.SlideImage
+com/example/travellovisor/services/Guides.java
+ com.example.travellovisor.services.Guides
+com/example/travellovisor/services/BookedPackage.java
+ com.example.travellovisor.services.BookedPackage
 com/example/travellovisor/splash/SplashScreen.java
  com.example.travellovisor.splash.SplashScreen
 com/example/travellovisor/services/FindPlaces.java
  com.example.travellovisor.services.FindPlaces
 com/example/travellovisor/services/GuideListAdapter.java
  com.example.travellovisor.services.GuideListAdapter
-com/example/travellovisor/account/LoginActivity.java
- com.example.travellovisor.account.LoginActivity
- com.example.travellovisor.account.LoginActivity$1
- com.example.travellovisor.account.LoginActivity$2
- com.example.travellovisor.account.LoginActivity$3
+com/example/travellovisor/services/PkgListAdapter.java
+ com.example.travellovisor.services.PkgListAdapter
+com/example/travellovisor/YourTourPackage.java
+ com.example.travellovisor.YourTourPackage
+ com.example.travellovisor.YourTourPackage$1
+ com.example.travellovisor.YourTourPackage$2
+ com.example.travellovisor.YourTourPackage$3
+ com.example.travellovisor.YourTourPackage$4
+com/example/travellovisor/Homepage.java
+ com.example.travellovisor.Homepage
+ com.example.travellovisor.Homepage$1
 com/example/travellovisor/account/OTPsendActivity.java
  com.example.travellovisor.account.OTPsendActivity
  com.example.travellovisor.account.OTPsendActivity$1
  com.example.travellovisor.account.OTPsendActivity$2
  com.example.travellovisor.account.OTPsendActivity$3
  com.example.travellovisor.account.OTPsendActivity$4
-com/example/travellovisor/Homepage.java
- com.example.travellovisor.Homepage
- com.example.travellovisor.Homepage$1
+com/example/travellovisor/services/TravelGuideDetails.java
+ com.example.travellovisor.services.TravelGuideDetails
+ com.example.travellovisor.services.TravelGuideDetails$1
+ com.example.travellovisor.services.TravelGuideDetails$2
+com/example/travellovisor/account/OTPverifyActivity.java
+ com.example.travellovisor.account.OTPverifyActivity
 com/example/travellovisor/account/RegistrationActivity.java
  com.example.travellovisor.account.RegistrationActivity
  com.example.travellovisor.account.RegistrationActivity$1
+com/example/travellovisor/SlideShow.java
+ com.example.travellovisor.SlideShow
+ com.example.travellovisor.SlideShow$1
+ com.example.travellovisor.SlideShow$2
+ com.example.travellovisor.SlideShow$3
+com/example/travellovisor/User.java
+ com.example.travellovisor.User
 com/example/travellovisor/services/TravelGuide.java
  com.example.travellovisor.services.TravelGuide
  com.example.travellovisor.services.TravelGuide$1
  com.example.travellovisor.services.TravelGuide$2
  com.example.travellovisor.services.TravelGuide$3
  com.example.travellovisor.services.TravelGuide$4
-com/example/travellovisor/SlideImage.java
- com.example.travellovisor.SlideImage
-com/example/travellovisor/SlideShow.java
- com.example.travellovisor.SlideShow
- com.example.travellovisor.SlideShow$1
- com.example.travellovisor.SlideShow$2
- com.example.travellovisor.SlideShow$3
+com/example/travellovisor/account/LoginActivity.java
+ com.example.travellovisor.account.LoginActivity
+ com.example.travellovisor.account.LoginActivity$1
+ com.example.travellovisor.account.LoginActivity$2
+ com.example.travellovisor.account.LoginActivity$3
+com/example/travellovisor/MainActivity.java
+ com.example.travellovisor.MainActivity
 com/example/travellovisor/services/TourPackages.java
  com.example.travellovisor.services.TourPackages
  com.example.travellovisor.services.TourPackages$1
@@ -44,12 +70,7 @@ com/example/travellovisor/services/TourPackages.java
  com.example.travellovisor.services.TourPackages$4
  com.example.travellovisor.services.TourPackages$5
  com.example.travellovisor.services.TourPackages$6
-com/example/travellovisor/services/BookedPackage.java
- com.example.travellovisor.services.BookedPackage
-com/example/travellovisor/services/TravelGuideDetails.java
- com.example.travellovisor.services.TravelGuideDetails
- com.example.travellovisor.services.TravelGuideDetails$1
- com.example.travellovisor.services.TravelGuideDetails$2
+ com.example.travellovisor.services.TourPackages$7
 com/example/travellovisor/services/TourPackageDetails.java
  com.example.travellovisor.services.TourPackageDetails
  com.example.travellovisor.services.TourPackageDetails$1
@@ -57,15 +78,17 @@ com/example/travellovisor/services/TourPackageDetails.java
  com.example.travellovisor.services.TourPackageDetails$3
  com.example.travellovisor.services.TourPackageDetails$4
  com.example.travellovisor.services.TourPackageDetails$5
-com/example/travellovisor/services/Guides.java
- com.example.travellovisor.services.Guides
-com/example/travellovisor/MainActivity.java
- com.example.travellovisor.MainActivity
-com/example/travellovisor/account/OTPverifyActivity.java
- com.example.travellovisor.account.OTPverifyActivity
-com/example/travellovisor/SlideAdapter.java
- com.example.travellovisor.SlideAdapter
-com/example/travellovisor/services/PkgListAdapter.java
- com.example.travellovisor.services.PkgListAdapter
-com/example/travellovisor/services/PackageTour.java
- com.example.travellovisor.services.PackageTour
+ com.example.travellovisor.services.TourPackageDetails$6
+com/example/travellovisor/YourPackageList.java
+ com.example.travellovisor.YourPackageList
+ com.example.travellovisor.YourPackageList$1
+ com.example.travellovisor.YourPackageList$2
+ com.example.travellovisor.YourPackageList$3
+ com.example.travellovisor.YourPackageList$4
+ com.example.travellovisor.YourPackageList$5
+ com.example.travellovisor.YourPackageList$6
+ com.example.travellovisor.YourPackageList$7
+com/example/travellovisor/UsersProfile.java
+ com.example.travellovisor.UsersProfile
+ com.example.travellovisor.UsersProfile$1
+ com.example.travellovisor.UsersProfile$2

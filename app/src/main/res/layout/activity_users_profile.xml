@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UsersProfile">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center"
+        android:src="@drawable/travellogo"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:foreground="@drawable/circle_shape"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="100dp">
+
+
+        <ImageView
+            android:id="@+id/profileImg"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/blankprofilepicture" />
+
+    </androidx.cardview.widget.CardView>
+
+<TextView
+    android:id="@+id/greet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_marginTop="10dp"
+    android:text="Hello x"
+    android:textStyle="bold"
+    android:textColor="@color/tomato"
+    android:textSize="20dp"
+    />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:paddingLeft="30dp"
+        android:orientation="vertical">
+        <!--your packages-->
+        <LinearLayout
+            android:id="@+id/yourpkg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/ic_baseline_backpack_24"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Packages"
+            android:textStyle="bold"
+            android:textColor="@color/tomato"
+            android:textSize="20dp"
+            android:paddingBottom="10dp"
+            />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

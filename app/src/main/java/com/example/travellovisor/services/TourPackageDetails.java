@@ -9,12 +9,14 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.travellovisor.R;
+import com.example.travellovisor.UsersProfile;
 import com.example.travellovisor.account.LoginActivity;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -27,6 +29,7 @@ import com.google.firebase.database.ValueEventListener;
 public class TourPackageDetails extends AppCompatActivity {
     TextView pkgid, pkgname, pkgcost, traveldate, minimumperson, duration, hotel, btnsubmit;
     RadioGroup bedroom, transport;
+    ImageView profile;
 
     FirebaseAuth nAuth;
     FirebaseUser nUser;
@@ -55,6 +58,7 @@ public class TourPackageDetails extends AppCompatActivity {
         btnsubmit = findViewById(R.id.btnsubmit);
         bedroom = findViewById(R.id.bedroom);
         transport = findViewById(R.id.transport);
+        profile=findViewById(R.id.profile);
 
         pkg = (PackageTour) getIntent().getSerializableExtra("pkg");
         display();
@@ -99,6 +103,14 @@ public class TourPackageDetails extends AppCompatActivity {
                     bookThePackage();
             }
 
+        });
+
+        profile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), UsersProfile.class));
+                finish();
+            }
         });
     }
 
@@ -154,6 +166,7 @@ public class TourPackageDetails extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
         intent.putExtra("reqFrom", "TPD");
         startActivity(intent);
+        finish();
         Toast.makeText(getApplicationContext(), "Login Requires", Toast.LENGTH_LONG).show();
     }
 

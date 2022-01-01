@@ -12,11 +12,14 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.travellovisor.R;
+import com.example.travellovisor.User;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 public class RegistrationActivity extends AppCompatActivity implements View.OnClickListener {
     private EditText et_name,et_email,et_password;
@@ -25,6 +28,8 @@ public class RegistrationActivity extends AppCompatActivity implements View.OnCl
 
     FirebaseAuth nAuth;
     FirebaseUser nUser;
+    FirebaseDatabase database;
+    DatabaseReference db;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,7 +50,9 @@ public class RegistrationActivity extends AppCompatActivity implements View.OnCl
         btn_register.setOnClickListener(this);
         tv_goto_login.setOnClickListener(this);
 
-
+        //get database reference
+        database=FirebaseDatabase.getInstance("https://travellovisor-829f1-default-rtdb.asia-southeast1.firebasedatabase.app");
+        db=database.getReference("users");
 
 
     }
@@ -76,6 +83,7 @@ public class RegistrationActivity extends AppCompatActivity implements View.OnCl
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if (task.isSuccessful()){
+                    db.child(nUser.getUid()).setValue(new User(name));
                     progressDialog.dismiss();
                     sendToActivity();
                     Toast.makeText(getApplicationContext(), "Registration Succesful", Toast.LENGTH_SHORT).show();
