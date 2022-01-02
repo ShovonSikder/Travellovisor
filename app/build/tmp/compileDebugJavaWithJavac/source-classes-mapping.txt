@@ -1,9 +1,9 @@
-com/example/travellovisor/BuildConfig.java
- com.example.travellovisor.BuildConfig
 com/example/travellovisor/services/BookedPackage.java
  com.example.travellovisor.services.BookedPackage
 com/example/travellovisor/transportation/Model.java
  com.example.travellovisor.transportation.Model
+com/example/travellovisor/BuildConfig.java
+ com.example.travellovisor.BuildConfig
 com/example/travellovisor/SlideImage.java
  com.example.travellovisor.SlideImage
 com/example/travellovisor/services/Guides.java
@@ -83,3 +83,8 @@ com/example/travellovisor/SlideAdapter.java
  com.example.travellovisor.SlideAdapter
 com/example/travellovisor/services/PkgListAdapter.java
  com.example.travellovisor.services.PkgListAdapter
+com/example/travellovisor/TimeSelection.java
+ com.example.travellovisor.TimeSelection
+ com.example.travellovisor.TimeSelection$1
+ com.example.travellovisor.TimeSelection$1$1
+ com.example.travellovisor.TimeSelection$2

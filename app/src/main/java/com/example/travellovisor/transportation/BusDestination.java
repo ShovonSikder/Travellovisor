@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 import android.widget.Toolbar;
 
 import androidx.annotation.NonNull;
@@ -15,13 +16,13 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.travellovisor.BusTime;
 import com.example.travellovisor.R;
+import com.example.travellovisor.TimeSelection;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 public class BusDestination extends AppCompatActivity {
-
 
     private FirebaseRecyclerOptions<Model> options;
     private FirebaseRecyclerAdapter<Model, MyViewHolder> adapter;
@@ -32,17 +33,23 @@ public class BusDestination extends AppCompatActivity {
     //private DatabaseReference db;
 
     private DatabaseReference ref;
-    private Toolbar ntoolbar;
+    private String location="";
+
+    private TextView tv_from;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bus_destinantion);
 
-
        /* ntoolbar= this.<Toolbar>findViewById(R.id.main_page_toolbar_IDadminPanel_main);
         setSupportActionBar(ntoolbar);
         getSupportActionBar().setTitle("Request's List");*/
+
+        String from=getIntent().getStringExtra("id");
+
+        tv_from=findViewById(R.id.tv_from);
+        tv_from.setText(from);
 
         database = FirebaseDatabase.getInstance("https://travellovisor-829f1-default-rtdb.asia-southeast1.firebasedatabase.app/");
         ref = database.getReference("Transportation/Bus/Routes");
@@ -65,9 +72,11 @@ public class BusDestination extends AppCompatActivity {
                 holder.view.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        Intent intent = new Intent(getApplicationContext(), BusTime.class);
+                        Intent intent = new Intent(getApplicationContext(), TimeSelection.class);
                         intent.putExtra("id", id1);
                         intent.putExtra("name", name1);
+                        intent.putExtra("from", from);
+                        intent.putExtra("location", from+"/"+id1);
                         startActivity(intent);
                     }
                 });

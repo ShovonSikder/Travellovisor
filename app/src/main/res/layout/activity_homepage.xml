@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".Homepage"
-    android:orientation="vertical">
-
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".Homepage">
     <Button
         android:id="@+id/btn_logout"
         android:layout_width="wrap_content"
@@ -15,7 +14,183 @@
         android:textAllCaps="false"
         android:layout_gravity="end"
         />
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@drawable/homepage1">
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:background="@drawable/curvedbg"
+    android:layout_height="265dp"
+    android:layout_marginTop="-20dp"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Where to?"
+        android:layout_margin="8dp"
+        android:textSize="20sp"
+        />
 
 
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/curvedbg1"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_location_searching_24"
 
+            android:layout_gravity="center"/>
+        <EditText
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:background="@color/white1"
+            android:hint="City,station or airport"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/curvedbg1"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_add_location_24"
+            android:layout_gravity="center"/>
+        <EditText
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:background="@color/white1"
+            android:hint="City,station or airport"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+        <LinearLayout
+            android:layout_width="195dp"
+            android:layout_height="50dp"
+            android:background="@drawable/curvedbg1"
+            android:orientation="horizontal"
+            android:padding="5dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_calendar_today_24"
+                android:layout_gravity="center"/>
+            <EditText
+                android:layout_width="400dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:background="@color/white1"
+                android:hint="Mon, Dec 21"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="195dp"
+            android:layout_height="50dp"
+            android:background="@drawable/curvedbg1"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:layout_marginLeft="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_add_24"
+                android:layout_gravity="center"/>
+            <EditText
+                android:layout_width="400dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:background="@color/white1"
+                android:hint="Add Return"
+                />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/searchbar"
+            android:layout_marginLeft="20dp"
+            />
+    </LinearLayout>
+</LinearLayout>
+
+<GridLayout
+    android:layout_marginLeft="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="3"
+    android:rowCount="3">
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="@drawable/findplace"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:layout_margin="10dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="@drawable/findtransport"
+        android:layout_column="1"
+        android:layout_row="0"
+        android:layout_margin="10dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="@drawable/readtravel"
+        android:layout_column="2"
+        android:layout_row="0"
+        android:layout_margin="10dp"
+
+        />
+    <!-- End of 1st row-->
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="@drawable/tourpackage"
+        android:layout_column="0"
+        android:layout_row="1"
+        android:layout_margin="10dp"
+
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="@drawable/findhotel"
+        android:layout_column="1"
+        android:layout_row="1"
+        android:layout_margin="10dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="@drawable/travelguide"
+        android:layout_column="2"
+        android:layout_row="1"
+        android:layout_margin="10dp"
+        />
+</GridLayout>
 </LinearLayout>
