@@ -8,6 +8,10 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.travellovisor.account.LoginActivity;
+import com.example.travellovisor.services.FindPlaces;
+import com.example.travellovisor.services.TourPackages;
+import com.example.travellovisor.services.TravelGuide;
+import com.example.travellovisor.transportation.Bus_Source;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
@@ -56,4 +60,23 @@ public class Homepage extends AppCompatActivity {
     }
 
 
+    public void goToFindPlac(View view) {
+        Intent intent=new Intent(getApplicationContext(), FindPlaces.class);
+        startActivity(intent);
+    }
+
+    public void findTransportation(View view) {
+        Intent intent=new Intent(getApplicationContext(), Bus_Source.class);
+        startActivity(intent);
+    }
+
+    public void travelGuide(View view) {
+        Intent intent=new Intent(getApplicationContext(), TravelGuide.class);
+        startActivity(intent);
+    }
+
+    public void tourPackage(View view) {
+        Intent intent=new Intent(getApplicationContext(), TourPackages.class);
+        startActivity(intent);
+    }
 }

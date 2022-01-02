@@ -11,6 +11,7 @@ import com.example.travellovisor.account.RegistrationActivity;
 import com.example.travellovisor.services.TourPackageDetails;
 import com.example.travellovisor.services.TourPackages;
 import com.example.travellovisor.services.TravelGuide;
+import com.example.travellovisor.transportation.Bus_Source;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
@@ -24,19 +25,25 @@ public class MainActivity extends AppCompatActivity {
 
 
         //redirects to homepage;
-        //goToHomepage();
+        goToHomepage();
         //goToTravelGuide();
-       // goToRegistrationActivity();
+        // goToRegistrationActivity();
         //goToLogin();
         //goToTourPackages();
         //goToSlidShow();
         //goToUserProfile();
         //goToYourTourPackage();
+        //gotoTransportation();
 
 
 
     }
 
+    private void gotoTransportation() {
+        Intent intent=new Intent(this, Bus_Source.class);
+        startActivity(intent);
+        finish();
+    }
 
 
     private void goToHomepage() {
