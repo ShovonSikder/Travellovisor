@@ -1173,6 +1173,7 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color green_def
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color material_blue_grey_800
@@ -1263,6 +1264,7 @@ color mtrl_textinput_hovered_box_stroke_color
 color notification_action_color_filter
 color notification_icon_bg_color
 color notification_material_background_media_default_color
+color occupied
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -1853,6 +1855,7 @@ drawable ic_baseline_add_location_24
 drawable ic_baseline_arrow_right_alt_24
 drawable ic_baseline_calendar_today_24
 drawable ic_baseline_cloud_upload_24
+drawable ic_baseline_event_seat_24
 drawable ic_baseline_location_searching_24
 drawable ic_baseline_monetization_on_24
 drawable ic_baseline_perm_identity_24
@@ -1929,6 +1932,10 @@ id SHOW_PROGRESS
 id SYM
 id TOP_END
 id TOP_START
+id a1
+id a2
+id a3
+id a4
 id accelerate
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -2006,6 +2013,7 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id b4
 id barrier
 id baseline
 id bedroom
@@ -2013,6 +2021,7 @@ id beginOnFirstDraw
 id beginning
 id bestChoice
 id blocking
+id bookseatsDone
 id bottom
 id bounce
 id bounceBoth
@@ -2173,6 +2182,10 @@ id item2
 id item3
 id item4
 id item_touch_helper_previous_elevation
+id j1
+id j2
+id j3
+id j4
 id jumpToEnd
 id jumpToStart
 id labeled
@@ -2429,6 +2442,8 @@ id traveldate
 id triangle
 id tv_1
 id tv_2
+id tv_buy_seats
+id tv_choose_seats
 id tv_from
 id tv_goto_login
 id tv_goto_register
@@ -2530,12 +2545,14 @@ layout abc_tooltip
 layout activity_bus_destinantion
 layout activity_bus_source2
 layout activity_bus_time
+layout activity_choose_seats
 layout activity_find_places
 layout activity_homepage
 layout activity_login
 layout activity_main
 layout activity_otpsend
 layout activity_otpverify
+layout activity_payment
 layout activity_registration
 layout activity_slide_show
 layout activity_splash_screen

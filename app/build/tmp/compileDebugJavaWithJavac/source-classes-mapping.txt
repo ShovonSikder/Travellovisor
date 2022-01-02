@@ -1,15 +1,15 @@
-com/example/travellovisor/services/BookedPackage.java
- com.example.travellovisor.services.BookedPackage
-com/example/travellovisor/transportation/Model.java
- com.example.travellovisor.transportation.Model
-com/example/travellovisor/BuildConfig.java
- com.example.travellovisor.BuildConfig
 com/example/travellovisor/SlideImage.java
  com.example.travellovisor.SlideImage
-com/example/travellovisor/services/Guides.java
- com.example.travellovisor.services.Guides
 com/example/travellovisor/services/PackageTour.java
  com.example.travellovisor.services.PackageTour
+com/example/travellovisor/services/Guides.java
+ com.example.travellovisor.services.Guides
+com/example/travellovisor/services/BookedPackage.java
+ com.example.travellovisor.services.BookedPackage
+com/example/travellovisor/BuildConfig.java
+ com.example.travellovisor.BuildConfig
+com/example/travellovisor/transportation/Model.java
+ com.example.travellovisor.transportation.Model
 com/example/travellovisor/splash/SplashScreen.java
  com.example.travellovisor.splash.SplashScreen
 com/example/travellovisor/services/FindPlaces.java
@@ -27,8 +27,8 @@ com/example/travellovisor/account/OTPsendActivity.java
  com.example.travellovisor.account.OTPsendActivity$2
  com.example.travellovisor.account.OTPsendActivity$3
  com.example.travellovisor.account.OTPsendActivity$4
-com/example/travellovisor/BusTime.java
- com.example.travellovisor.BusTime
+com/example/travellovisor/transportation/BusTime.java
+ com.example.travellovisor.transportation.BusTime
 com/example/travellovisor/Homepage.java
  com.example.travellovisor.Homepage
  com.example.travellovisor.Homepage$1
@@ -41,6 +41,11 @@ com/example/travellovisor/services/TravelGuide.java
  com.example.travellovisor.services.TravelGuide$2
  com.example.travellovisor.services.TravelGuide$3
  com.example.travellovisor.services.TravelGuide$4
+com/example/travellovisor/transportation/TimeSelection.java
+ com.example.travellovisor.transportation.TimeSelection
+ com.example.travellovisor.transportation.TimeSelection$1
+ com.example.travellovisor.transportation.TimeSelection$1$1
+ com.example.travellovisor.transportation.TimeSelection$2
 com/example/travellovisor/transportation/MyViewHolder.java
  com.example.travellovisor.transportation.MyViewHolder
 com/example/travellovisor/transportation/Bus_Source.java
@@ -51,6 +56,10 @@ com/example/travellovisor/transportation/BusDestination.java
  com.example.travellovisor.transportation.BusDestination
  com.example.travellovisor.transportation.BusDestination$1
  com.example.travellovisor.transportation.BusDestination$1$1
+com/example/travellovisor/Payment.java
+ com.example.travellovisor.Payment
+ com.example.travellovisor.Payment$1
+ com.example.travellovisor.Payment$2
 com/example/travellovisor/SlideShow.java
  com.example.travellovisor.SlideShow
  com.example.travellovisor.SlideShow$1
@@ -64,6 +73,8 @@ com/example/travellovisor/services/TourPackages.java
  com.example.travellovisor.services.TourPackages$4
  com.example.travellovisor.services.TourPackages$5
  com.example.travellovisor.services.TourPackages$6
+com/example/travellovisor/transportation/ChooseSeats.java
+ com.example.travellovisor.transportation.ChooseSeats
 com/example/travellovisor/services/TravelGuideDetails.java
  com.example.travellovisor.services.TravelGuideDetails
  com.example.travellovisor.services.TravelGuideDetails$1
@@ -83,8 +94,3 @@ com/example/travellovisor/SlideAdapter.java
  com.example.travellovisor.SlideAdapter
 com/example/travellovisor/services/PkgListAdapter.java
  com.example.travellovisor.services.PkgListAdapter
-com/example/travellovisor/TimeSelection.java
- com.example.travellovisor.TimeSelection
- com.example.travellovisor.TimeSelection$1
- com.example.travellovisor.TimeSelection$1$1
- com.example.travellovisor.TimeSelection$2

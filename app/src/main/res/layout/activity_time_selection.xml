@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TimeSelection">
+    tools:context=".transportation.TimeSelection">
 
     <LinearLayout
         android:id="@+id/linearLayout2"
@@ -119,15 +119,16 @@
     </LinearLayout>
 
     <TextView
-        android:id="@+id/butonToPkg"
+        android:id="@+id/tv_choose_seats"
         android:layout_width="match_parent"
         android:layout_height="30dp"
         android:background="@drawable/shapebuttonbackground"
         android:gravity="center"
-        android:text="Looking for tour package?"
+        android:text="Choose Seats"
         android:textColor="@color/white"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
+        android:onClick="chooseSeatsActivity"
         android:layout_margin="20dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
