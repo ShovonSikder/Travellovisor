@@ -23,7 +23,16 @@
         android:testOnly="true"
         android:theme="@style/Theme.Travellovisor" >
         <activity
-            android:name="com.example.travellovisor.BusTime"
+            android:name="com.example.travellovisor.Payment"
+            android:exported="false" />
+        <activity
+            android:name="com.example.travellovisor.transportation.ChooseSeats"
+            android:exported="false" />
+        <activity
+            android:name="com.example.travellovisor.transportation.TimeSelection"
+            android:exported="false" />
+        <activity
+            android:name="com.example.travellovisor.transportation.BusTime"
             android:exported="false" />
         <activity
             android:name="com.example.travellovisor.transportation.Bus_Source"
@@ -31,6 +40,15 @@
         <activity
             android:name="com.example.travellovisor.transportation.BusDestination"
             android:exported="false" />
+        <activity
+            android:name="com.example.travellovisor.YourPackageList"
+            android:exported="true" />
+        <activity
+            android:name="com.example.travellovisor.YourTourPackage"
+            android:exported="true" />
+        <activity
+            android:name="com.example.travellovisor.UsersProfile"
+            android:exported="true" />
         <activity
             android:name="com.example.travellovisor.services.TourPackageDetails"
             android:exported="true" />
