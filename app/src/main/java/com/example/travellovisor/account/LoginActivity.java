@@ -13,6 +13,7 @@ import android.widget.Toast;
 
 import com.example.travellovisor.Homepage;
 import com.example.travellovisor.R;
+import com.example.travellovisor.UsersProfile;
 import com.example.travellovisor.services.TourPackageDetails;
 import com.example.travellovisor.services.TravelGuide;
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -22,8 +23,8 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
 public class LoginActivity extends AppCompatActivity {
-    private EditText et_email,et_password;
-    private TextView tv_login,tv_goto_register;
+    private EditText et_email, et_password;
+    private TextView tv_login, tv_goto_register;
     private ProgressDialog progressDialog;
 
     FirebaseAuth nAuth;
@@ -35,15 +36,15 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
 
-        et_email=findViewById(R.id.et_email);
-        et_password=findViewById(R.id.et_password);
+        et_email = findViewById(R.id.et_email);
+        et_password = findViewById(R.id.et_password);
 
-        tv_login =findViewById(R.id.tv_login);
-        tv_goto_register =findViewById(R.id.tv_goto_register);
+        tv_login = findViewById(R.id.tv_login);
+        tv_goto_register = findViewById(R.id.tv_goto_register);
 
-        progressDialog=new ProgressDialog(this);
-        nAuth=FirebaseAuth.getInstance();
-        nUser=nAuth.getCurrentUser();
+        progressDialog = new ProgressDialog(this);
+        nAuth = FirebaseAuth.getInstance();
+        nUser = nAuth.getCurrentUser();
 
         tv_login.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -60,32 +61,34 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private void gotoRegisterActivity() {
-        Intent i=new Intent(getApplicationContext(),RegistrationActivity.class);
+        Intent i = new Intent(getApplicationContext(), RegistrationActivity.class);
         startActivity(i);
         finish();
     }
 
     private void login() {
-        String email=et_email.getText().toString();
-        String password=et_password.getText().toString();
+        String email = et_email.getText().toString();
+        String password = et_password.getText().toString();
 
         progressDialog.setMessage("Please wait.....");
         progressDialog.setTitle("Loging in");
         progressDialog.setCanceledOnTouchOutside(false);
         progressDialog.show();
 
-        nAuth.signInWithEmailAndPassword(email,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+        nAuth.signInWithEmailAndPassword(email, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
-                if (task.isSuccessful()){
+                if (task.isSuccessful()) {
                     progressDialog.dismiss();
-                    sendToActivity(getIntent().getStringExtra("reqFrom"));
+                   try {
+                       sendToActivity(getIntent().getStringExtra("reqFrom"));
+                   }catch (Exception e){
+                       sendToActivity("");
+                   }
                     Toast.makeText(getApplicationContext(), "Login Succesful", Toast.LENGTH_SHORT).show();
-                }
-                else
-                {
+                } else {
                     progressDialog.dismiss();
-                    Toast.makeText(getApplicationContext(), ""+task.getException(), Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "" + task.getException(), Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -95,12 +98,15 @@ public class LoginActivity extends AppCompatActivity {
 
     private void sendToActivity(String reqFrom) {
 
-        if(reqFrom.equals("TPD")){
-            Intent i=new Intent(this, TourPackageDetails.class);
-            getIntent().setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK|Intent.FLAG_ACTIVITY_NEW_TASK);
+        if (reqFrom.equals("TPD")) {
+            Intent i = new Intent(this, TourPackageDetails.class);
+            getIntent().setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
             startActivity(i);
-        }
-        else {
+        } else if (reqFrom.equals("profile")) {
+            Intent i = new Intent(this, UsersProfile.class);
+            getIntent().setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+            startActivity(i);
+        } else {
             Intent i = new Intent(this, Homepage.class);
             getIntent().setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
             startActivity(i);
