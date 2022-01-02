@@ -70,7 +70,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="30dp"
-        android:background="#EECD59"
+        android:background="@color/tomato_def"
         android:gravity="center_vertical"
         android:paddingLeft="5dp"
         android:paddingRight="5dp"

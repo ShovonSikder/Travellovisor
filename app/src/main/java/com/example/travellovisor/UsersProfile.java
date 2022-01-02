@@ -80,8 +80,13 @@ public class UsersProfile extends AppCompatActivity {
                 progress.show();
                 user = snapshot.getValue(User.class);
                 greet.setText("Hello " + user.getName());
-                if (user.getImglink() != null)
-                    Picasso.get().load(user.getImglink()).into(profileImg);
+                try{
+                    if (user.getImglink() != null)
+                        Picasso.get().load(user.getImglink()).into(profileImg);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+
                 progress.dismiss();
             }
 

@@ -83,6 +83,7 @@ public class RegistrationActivity extends AppCompatActivity implements View.OnCl
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if (task.isSuccessful()){
+                    nUser=nAuth.getCurrentUser();
                     db.child(nUser.getUid()).setValue(new User(name));
                     progressDialog.dismiss();
                     sendToActivity();
