@@ -31,6 +31,9 @@ android {
 
 dependencies {
 
+    //barikoi location search
+    implementation 'com.github.barikoi:BarikoiLocationLibrary:v1.2.2'
+
     //dependencies for image from database
     implementation 'com.google.firebase:firebase-database:19.6.0'
     implementation 'com.squareup.picasso:picasso:2.71828'

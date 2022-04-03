@@ -144,7 +144,7 @@ public class TimeSelection extends AppCompatActivity {
     protected Dialog onCreateDialog(int id) {
         // TODO Auto-generated method stub
         if (id == 999) {
-            return new DatePickerDialog(this,
+            return new DatePickerDialog(this,R.style.DialogThemeCal,
                     myDateListener, year, month, day);
         }
         return null;
@@ -156,9 +156,9 @@ public class TimeSelection extends AppCompatActivity {
                 public void onDateSet(DatePicker arg0,
                                       int arg1, int arg2, int arg3) {
                     // TODO Auto-generated method stub
-                    // arg1 = year
-                    // arg2 = month
-                    // arg3 = day
+                     arg1 = year;
+                     arg2 = month;
+                     arg3 = day;
                     showDate(arg1, arg2+1, arg3);
                 }
             };

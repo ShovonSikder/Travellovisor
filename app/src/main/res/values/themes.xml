@@ -13,4 +13,24 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <!--Dialog style-->
+    <style name="DialogThemeCal" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/tomato_def</item>
+        <item name="android:buttonBarPositiveButtonStyle">@style/DatePickerButton</item>
+        <item name="android:buttonBarNegativeButtonStyle">@style/DatePickerButton</item>
+    </style>
+
+    <style name="DialogThemeSpin" parent="DialogThemeCal">
+        <item name="android:datePickerStyle">@style/style_date_picker</item>
+    </style>
+
+    <!--button Style-->
+    <style name="DatePickerButton" parent="Base.Widget.AppCompat.Button.Borderless">
+        <item name="android:textColor">@color/tomato_def</item>
+    </style>
+
+    <style name="style_date_picker" parent="android:Widget.Material.Light.DatePicker">
+        <item name="android:datePickerMode">spinner</item>
+    </style>
 </resources>

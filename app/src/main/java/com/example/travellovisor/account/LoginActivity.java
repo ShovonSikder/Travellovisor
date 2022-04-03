@@ -67,8 +67,13 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private void login() {
-        String email = et_email.getText().toString();
+        String email = et_email.getText().toString().trim();
         String password = et_password.getText().toString();
+
+        if(email.equals("") || password.equals("")){
+            Toast.makeText(getApplicationContext(),"Email & Pass must required",Toast.LENGTH_LONG).show();
+            return;
+        }
 
         progressDialog.setMessage("Please wait.....");
         progressDialog.setTitle("Loging in");
@@ -85,10 +90,13 @@ public class LoginActivity extends AppCompatActivity {
                    }catch (Exception e){
                        sendToActivity("");
                    }
+                   finally {
+                       finish();
+                   }
                     Toast.makeText(getApplicationContext(), "Login Succesful", Toast.LENGTH_SHORT).show();
                 } else {
                     progressDialog.dismiss();
-                    Toast.makeText(getApplicationContext(), "" + task.getException(), Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "" + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                 }
             }
         });

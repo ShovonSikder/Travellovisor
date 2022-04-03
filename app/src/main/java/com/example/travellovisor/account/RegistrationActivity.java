@@ -74,6 +74,11 @@ public class RegistrationActivity extends AppCompatActivity implements View.OnCl
         String email=et_email.getText().toString();
         String password=et_password.getText().toString();
 
+        if(email.equals("") || password.equals("")){
+            Toast.makeText(getApplicationContext(),"Email & Pass must required",Toast.LENGTH_LONG).show();
+            return;
+        }
+
         progressDialog.setMessage("Please wait.....");
         progressDialog.setTitle("Registration");
         progressDialog.setCanceledOnTouchOutside(false);
@@ -84,7 +89,7 @@ public class RegistrationActivity extends AppCompatActivity implements View.OnCl
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if (task.isSuccessful()){
                     nUser=nAuth.getCurrentUser();
-                    db.child(nUser.getUid()).setValue(new User(name));
+                    db.child(nUser.getUid()).setValue(new User((name.equals("")) ? "Unknown":name));
                     progressDialog.dismiss();
                     sendToActivity();
                     Toast.makeText(getApplicationContext(), "Registration Succesful", Toast.LENGTH_SHORT).show();
@@ -92,7 +97,7 @@ public class RegistrationActivity extends AppCompatActivity implements View.OnCl
                 else
                 {
                     progressDialog.dismiss();
-                    Toast.makeText(getApplicationContext(), ""+task.getException(), Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), ""+task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -102,6 +107,7 @@ public class RegistrationActivity extends AppCompatActivity implements View.OnCl
         Intent i=new Intent(this, LoginActivity.class);
         getIntent().setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK|Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(i);
+        finish();
     }
 
 }

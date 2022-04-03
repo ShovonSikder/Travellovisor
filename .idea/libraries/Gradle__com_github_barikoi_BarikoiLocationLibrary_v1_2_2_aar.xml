@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.barikoi:BarikoiLocationLibrary:v1.2.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/f4712e4ae043abeaf1ee27e6b0f2f1f0/transformed/jetified-BarikoiLocationLibrary-v1.2.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f4712e4ae043abeaf1ee27e6b0f2f1f0/transformed/jetified-BarikoiLocationLibrary-v1.2.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f4712e4ae043abeaf1ee27e6b0f2f1f0/transformed/jetified-BarikoiLocationLibrary-v1.2.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.barikoi/BarikoiLocationLibrary/v1.2.2/2cb614a2189c9df4508a9ea171f6adb0aafd6b09/BarikoiLocationLibrary-v1.2.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -71,13 +71,13 @@ tools:context=".Homepage">
                         android:src="@drawable/ic_baseline_location_searching_24"
 
                         android:layout_gravity="center"/>
-                    <EditText
+                    <fragment
+                        android:id="@+id/barikoiSearchAutocompleteFragmentSRC"
+                        android:name="barikoi.barikoilocation.SearchAutoComplete.SearchAutocompleteFragment"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:padding="10dp"
                         android:layout_gravity="center"
-                        android:background="@color/white1"
-                        android:hint="City,station or airport"
                         />
                 </LinearLayout>
 
@@ -95,13 +95,14 @@ tools:context=".Homepage">
                         android:layout_height="wrap_content"
                         android:src="@drawable/ic_baseline_add_location_24"
                         android:layout_gravity="center"/>
-                    <EditText
+                    <fragment
+                        android:id="@+id/barikoiSearchAutocompleteFragmentDEST"
+                        android:name="barikoi.barikoilocation.SearchAutoComplete.SearchAutocompleteFragment"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:padding="10dp"
                         android:layout_gravity="center"
                         android:background="@color/white1"
-                        android:hint="City,station or airport"
                         />
                 </LinearLayout>
 
@@ -113,6 +114,7 @@ tools:context=".Homepage">
                     android:layout_marginTop="10dp"
                     android:weightSum="2">
                     <LinearLayout
+
                         android:layout_weight="1"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
@@ -120,17 +122,21 @@ tools:context=".Homepage">
                         android:orientation="horizontal"
                         android:padding="5dp">
                         <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:src="@drawable/ic_baseline_calendar_today_24"
+                            android:id="@+id/clndrIcon"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:src="@drawable/ic_baseline_calendar_month_24"
                             android:layout_gravity="center"/>
                         <EditText
+                            android:id="@+id/editDate"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:padding="10dp"
                             android:layout_gravity="center"
                             android:background="@color/white1"
                             android:hint="Mon, Dec 21"
+                            android:focusable="false"
+
                             />
                     </LinearLayout>
                     <LinearLayout
@@ -166,6 +172,7 @@ tools:context=".Homepage">
                     android:padding="5dp"
                     >
                     <ImageView
+                        android:id="@+id/searchNow"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:src="@drawable/searchbar"

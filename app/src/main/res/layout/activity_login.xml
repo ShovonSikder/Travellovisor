@@ -52,6 +52,7 @@
             android:layout_height="wrap_content"
             android:textColor="@color/white"
             android:backgroundTint="@color/white"
+            android:inputType="textPassword"
             />
 
         <TextView

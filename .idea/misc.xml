@@ -37,6 +37,17 @@
         <entry key="..\:/Users/conne/StudioProjectssss/Travellovisor/app/src/main/res/layout/single_view_layout.xml" value="0.2980072463768116" />
         <entry key="..\:/Users/conne/StudioProjectssss/Travellovisor/app/src/main/res/layout/slide_simple_view.xml" value="0.18802083333333333" />
         <entry key="..\:/Users/conne/StudioProjectssss/Travellovisor/app/src/main/res/layout/ttravel_guide_list_sample_view.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/shovo/Barikoi task/Final task search auto complete/Travellovisor/app/src/main/res/drawable/ic_baseline_calendar_month_24.xml" value="0.103" />
+        <entry key="..\:/Users/shovo/Barikoi task/Final task search auto complete/Travellovisor/app/src/main/res/drawable/ic_baseline_calendar_today_24.xml" value="0.103" />
+        <entry key="..\:/Users/shovo/Barikoi task/Final task search auto complete/Travellovisor/app/src/main/res/drawable/shapebackground.xml" value="0.103" />
+        <entry key="..\:/Users/shovo/Barikoi task/Final task search auto complete/Travellovisor/app/src/main/res/layout/activity_bus_time.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/shovo/Barikoi task/Final task search auto complete/Travellovisor/app/src/main/res/layout/activity_homepage.xml" value="0.22327898550724637" />
+        <entry key="..\:/Users/shovo/Barikoi task/Final task search auto complete/Travellovisor/app/src/main/res/layout/activity_login.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/shovo/Barikoi task/Final task search auto complete/Travellovisor/app/src/main/res/layout/activity_registration.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/shovo/Barikoi task/Final task search auto complete/Travellovisor/app/src/main/res/layout/activity_search_now.xml" value="0.11474164133738601" />
+        <entry key="..\:/Users/shovo/Barikoi task/Final task search auto complete/Travellovisor/app/src/main/res/layout/activity_time_selection.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/shovo/Barikoi task/Final task search auto complete/Travellovisor/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.103" />
+        <entry key="..\:/Users/shovo/Barikoi task/Final task search auto complete/Travellovisor/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2015" />
         <entry key="..\:/Users/shovo/GUB Life/4yr/CSE_402 lab/Travellovisor/Travellovisor/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/shovo/GUB Life/4yr/CSE_402 lab/Travellovisor/Travellovisor/app/src/main/res/drawable/ic_baseline_monetization_on_24.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/shovo/GUB Life/4yr/CSE_402 lab/Travellovisor/Travellovisor/app/src/main/res/drawable/ic_launcher_background.xml" value="0.26614583333333336" />
@@ -63,7 +74,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
