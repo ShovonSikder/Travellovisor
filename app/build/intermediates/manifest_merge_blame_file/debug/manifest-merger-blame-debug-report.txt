@@ -33,332 +33,331 @@
 21-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:12:9-54
 22        android:supportsRtl="true"
 22-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:13:9-35
-23        android:testOnly="true"
-24        android:theme="@style/Theme.Travellovisor" >
-24-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:14:9-51
-25        <activity
-25-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:15:9-17:40
-26            android:name="com.example.travellovisor.SearchNow"
-26-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:16:13-38
-27            android:exported="false" />
-27-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:17:13-37
-28        <activity
-28-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:18:9-20:40
-29            android:name="com.example.travellovisor.Payment"
-29-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:19:13-36
-30            android:exported="false" />
-30-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:20:13-37
-31        <activity
-31-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:21:9-23:40
-32            android:name="com.example.travellovisor.transportation.ChooseSeats"
-32-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:22:13-55
-33            android:exported="false" />
-33-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:23:13-37
-34        <activity
-34-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:24:9-26:40
-35            android:name="com.example.travellovisor.transportation.TimeSelection"
-35-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:25:13-57
-36            android:exported="false" />
-36-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:26:13-37
-37        <activity
-37-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:27:9-29:40
-38            android:name="com.example.travellovisor.transportation.BusTime"
-38-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:28:13-51
-39            android:exported="false" />
-39-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:29:13-37
-40        <activity
-40-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:30:9-32:40
-41            android:name="com.example.travellovisor.transportation.Bus_Source"
-41-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:31:13-54
-42            android:exported="false" />
-42-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:32:13-37
-43        <activity
-43-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:33:9-35:40
-44            android:name="com.example.travellovisor.transportation.BusDestination"
-44-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:34:13-58
-45            android:exported="false" />
-45-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:35:13-37
-46        <activity
-46-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:36:9-38:39
-47            android:name="com.example.travellovisor.YourPackageList"
-47-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:37:13-44
-48            android:exported="true" />
-48-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:38:13-36
-49        <activity
-49-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:39:9-41:39
-50            android:name="com.example.travellovisor.YourTourPackage"
-50-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:40:13-44
-51            android:exported="true" />
-51-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:41:13-36
-52        <activity
-52-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:42:9-44:39
-53            android:name="com.example.travellovisor.UsersProfile"
-53-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:43:13-41
-54            android:exported="true" />
-54-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:44:13-36
-55        <activity
-55-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:45:9-47:39
-56            android:name="com.example.travellovisor.services.TourPackageDetails"
-56-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:46:13-56
-57            android:exported="true" />
-57-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:47:13-36
-58        <activity
-58-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:48:9-50:39
-59            android:name="com.example.travellovisor.SlideShow"
-59-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:49:13-38
-60            android:exported="true" />
-60-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:50:13-36
-61        <activity
-61-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:51:9-53:39
-62            android:name="com.example.travellovisor.services.TourPackages"
-62-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:52:13-50
-63            android:exported="true" />
-63-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:53:13-36
-64        <activity
-64-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:54:9-56:39
-65            android:name="com.example.travellovisor.account.LoginActivity"
-65-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:55:13-50
-66            android:exported="true" />
-66-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:56:13-36
-67        <activity
-67-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:57:9-59:39
-68            android:name="com.example.travellovisor.account.RegistrationActivity"
-68-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:58:13-57
-69            android:exported="true" />
-69-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:59:13-36
-70        <activity
-70-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:60:9-62:39
-71            android:name="com.example.travellovisor.services.TravelGuideDetails"
-71-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:61:13-56
-72            android:exported="true" />
-72-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:62:13-36
-73        <activity
-73-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:63:9-65:39
-74            android:name="com.example.travellovisor.services.TravelGuide"
-74-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:64:13-49
-75            android:exported="true" />
-75-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:65:13-36
-76        <activity
-76-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:66:9-68:40
-77            android:name="com.example.travellovisor.services.FindPlaces"
-77-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:67:13-48
-78            android:exported="false" />
-78-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:68:13-37
-79        <activity
-79-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:69:9-71:40
-80            android:name="com.example.travellovisor.account.OTPverifyActivity"
-80-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:70:13-54
-81            android:exported="false" />
-81-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:71:13-37
-82        <activity
-82-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:72:9-74:40
-83            android:name="com.example.travellovisor.account.OTPsendActivity"
-83-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:73:13-52
-84            android:exported="false" />
-84-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:74:13-37
-85        <activity
-85-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:75:9-77:40
-86            android:name="com.example.travellovisor.Homepage"
-86-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:76:13-37
-87            android:exported="false" />
-87-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:77:13-37
-88        <activity
-88-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:78:9-86:20
-89            android:name="com.example.travellovisor.MainActivity"
-89-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:79:13-41
-90            android:exported="true" >
-90-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:80:13-36
-91            <intent-filter>
-91-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:81:13-85:29
-92                <action android:name="android.intent.action.MAIN" />
-92-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:82:17-69
-92-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:82:25-66
-93
-94                <category android:name="android.intent.category.LAUNCHER" />
-94-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:84:17-77
-94-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:84:27-74
-95            </intent-filter>
-96        </activity>
-97        <activity
-97-->[com.github.barikoi:BarikoiLocationLibrary:v1.2.2] C:\Users\shovo\.gradle\caches\transforms-3\f4712e4ae043abeaf1ee27e6b0f2f1f0\transformed\jetified-BarikoiLocationLibrary-v1.2.2\AndroidManifest.xml:15:9-18:20
-98            android:name="barikoi.barikoilocation.SearchAutoComplete.SearchAutoCompleteActivity"
-98-->[com.github.barikoi:BarikoiLocationLibrary:v1.2.2] C:\Users\shovo\.gradle\caches\transforms-3\f4712e4ae043abeaf1ee27e6b0f2f1f0\transformed\jetified-BarikoiLocationLibrary-v1.2.2\AndroidManifest.xml:16:13-97
-99            android:theme="@style/AppTheme.NoActionBar" >
-99-->[com.github.barikoi:BarikoiLocationLibrary:v1.2.2] C:\Users\shovo\.gradle\caches\transforms-3\f4712e4ae043abeaf1ee27e6b0f2f1f0\transformed\jetified-BarikoiLocationLibrary-v1.2.2\AndroidManifest.xml:17:13-56
-100        </activity>
-101
-102        <service
-102-->[com.google.firebase:firebase-database:20.0.3] C:\Users\shovo\.gradle\caches\transforms-3\fdcf3172eb58868b6cde8efd15c88446\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:29:9-35:19
-103            android:name="com.google.firebase.components.ComponentDiscoveryService"
-103-->[com.google.firebase:firebase-database:20.0.3] C:\Users\shovo\.gradle\caches\transforms-3\fdcf3172eb58868b6cde8efd15c88446\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:30:13-84
-104            android:directBootAware="true"
-104-->[com.google.firebase:firebase-common:20.0.0] C:\Users\shovo\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
-105            android:exported="false" >
-105-->[com.google.firebase:firebase-database:20.0.3] C:\Users\shovo\.gradle\caches\transforms-3\fdcf3172eb58868b6cde8efd15c88446\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:31:13-37
-106            <meta-data
-106-->[com.google.firebase:firebase-database:20.0.3] C:\Users\shovo\.gradle\caches\transforms-3\fdcf3172eb58868b6cde8efd15c88446\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:32:13-34:85
-107                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-107-->[com.google.firebase:firebase-database:20.0.3] C:\Users\shovo\.gradle\caches\transforms-3\fdcf3172eb58868b6cde8efd15c88446\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:33:17-109
-108                android:value="com.google.firebase.components.ComponentRegistrar" />
-108-->[com.google.firebase:firebase-database:20.0.3] C:\Users\shovo\.gradle\caches\transforms-3\fdcf3172eb58868b6cde8efd15c88446\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:34:17-82
-109            <meta-data
-109-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
-110                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-110-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
-111                android:value="com.google.firebase.components.ComponentRegistrar" />
-111-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
-112        </service>
-113
-114        <provider
-114-->[com.squareup.picasso:picasso:2.71828] C:\Users\shovo\.gradle\caches\transforms-3\e65f005aeaca160246f830fbbc544dee\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
-115            android:name="com.squareup.picasso.PicassoProvider"
-115-->[com.squareup.picasso:picasso:2.71828] C:\Users\shovo\.gradle\caches\transforms-3\e65f005aeaca160246f830fbbc544dee\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
-116            android:authorities="com.example.travellovisor.com.squareup.picasso"
-116-->[com.squareup.picasso:picasso:2.71828] C:\Users\shovo\.gradle\caches\transforms-3\e65f005aeaca160246f830fbbc544dee\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
-117            android:exported="false" />
-117-->[com.squareup.picasso:picasso:2.71828] C:\Users\shovo\.gradle\caches\transforms-3\e65f005aeaca160246f830fbbc544dee\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
-118
-119        <activity
-119-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
-120            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-120-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
-121            android:excludeFromRecents="true"
-121-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
-122            android:exported="true"
-122-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
-123            android:launchMode="singleTask"
-123-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
-124            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-124-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
-125            <intent-filter>
-125-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
-126                <action android:name="android.intent.action.VIEW" />
-126-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
-126-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
-127
-128                <category android:name="android.intent.category.DEFAULT" />
-128-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
-128-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
-129                <category android:name="android.intent.category.BROWSABLE" />
-129-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
-129-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
-130
-131                <data
-131-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
-132                    android:host="firebase.auth"
-132-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
-133                    android:path="/"
-133-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
-134                    android:scheme="genericidp" />
-134-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
-135            </intent-filter>
-136        </activity>
-137        <activity
-137-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
-138            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-138-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
-139            android:excludeFromRecents="true"
-139-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
-140            android:exported="true"
-140-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
-141            android:launchMode="singleTask"
-141-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
-142            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-142-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
-143            <intent-filter>
-143-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
-144                <action android:name="android.intent.action.VIEW" />
-144-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
-144-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
-145
-146                <category android:name="android.intent.category.DEFAULT" />
-146-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
-146-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
-147                <category android:name="android.intent.category.BROWSABLE" />
-147-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
-147-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
-148
-149                <data
-149-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
-150                    android:host="firebase.auth"
-150-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
-151                    android:path="/"
-151-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
-152                    android:scheme="recaptcha" />
-152-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
-153            </intent-filter>
-154        </activity>
-155
-156        <service
-156-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
-157            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
-157-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
-158            android:enabled="true"
-158-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
-159            android:exported="false" >
-159-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
-160            <intent-filter>
-160-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
-161                <action android:name="com.google.firebase.auth.api.gms.service.START" />
-161-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
-161-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
-162
-163                <category android:name="android.intent.category.DEFAULT" />
-163-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
-163-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
-164            </intent-filter>
-165        </service>
-166
-167        <provider
-167-->[com.google.firebase:firebase-common:20.0.0] C:\Users\shovo\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
-168            android:name="com.google.firebase.provider.FirebaseInitProvider"
-168-->[com.google.firebase:firebase-common:20.0.0] C:\Users\shovo\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
-169            android:authorities="com.example.travellovisor.firebaseinitprovider"
-169-->[com.google.firebase:firebase-common:20.0.0] C:\Users\shovo\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
-170            android:directBootAware="true"
-170-->[com.google.firebase:firebase-common:20.0.0] C:\Users\shovo\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
-171            android:exported="false"
-171-->[com.google.firebase:firebase-common:20.0.0] C:\Users\shovo\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
-172            android:initOrder="100" />
-172-->[com.google.firebase:firebase-common:20.0.0] C:\Users\shovo\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
-173
-174        <activity
-174-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\shovo\.gradle\caches\transforms-3\9917c1060ba2f79f3519a1b2bf642c2c\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
-175            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-175-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\shovo\.gradle\caches\transforms-3\9917c1060ba2f79f3519a1b2bf642c2c\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
-176            android:exported="false"
-176-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\shovo\.gradle\caches\transforms-3\9917c1060ba2f79f3519a1b2bf642c2c\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
-177            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-177-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\shovo\.gradle\caches\transforms-3\9917c1060ba2f79f3519a1b2bf642c2c\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
-178
-179        <meta-data
-179-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\shovo\.gradle\caches\transforms-3\6adff63397c1ac50e331d47bdf613af2\transformed\jetified-play-services-basement-17.1.0\AndroidManifest.xml:23:9-25:69
-180            android:name="com.google.android.gms.version"
-180-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\shovo\.gradle\caches\transforms-3\6adff63397c1ac50e331d47bdf613af2\transformed\jetified-play-services-basement-17.1.0\AndroidManifest.xml:24:13-58
-181            android:value="@integer/google_play_services_version" />
-181-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\shovo\.gradle\caches\transforms-3\6adff63397c1ac50e331d47bdf613af2\transformed\jetified-play-services-basement-17.1.0\AndroidManifest.xml:25:13-66
-182
-183        <provider
-183-->[androidx.emoji2:emoji2:1.0.0] C:\Users\shovo\.gradle\caches\transforms-3\4b60651704c7d8651ad2c3503bb38c73\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-184            android:name="androidx.startup.InitializationProvider"
-184-->[androidx.emoji2:emoji2:1.0.0] C:\Users\shovo\.gradle\caches\transforms-3\4b60651704c7d8651ad2c3503bb38c73\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
-185            android:authorities="com.example.travellovisor.androidx-startup"
-185-->[androidx.emoji2:emoji2:1.0.0] C:\Users\shovo\.gradle\caches\transforms-3\4b60651704c7d8651ad2c3503bb38c73\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
-186            android:exported="false" >
-186-->[androidx.emoji2:emoji2:1.0.0] C:\Users\shovo\.gradle\caches\transforms-3\4b60651704c7d8651ad2c3503bb38c73\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
-187            <meta-data
-187-->[androidx.emoji2:emoji2:1.0.0] C:\Users\shovo\.gradle\caches\transforms-3\4b60651704c7d8651ad2c3503bb38c73\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-188                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-188-->[androidx.emoji2:emoji2:1.0.0] C:\Users\shovo\.gradle\caches\transforms-3\4b60651704c7d8651ad2c3503bb38c73\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
-189                android:value="androidx.startup" />
-189-->[androidx.emoji2:emoji2:1.0.0] C:\Users\shovo\.gradle\caches\transforms-3\4b60651704c7d8651ad2c3503bb38c73\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
-190            <meta-data
-190-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\shovo\.gradle\caches\transforms-3\62e87c3cfe17c830dad51da22e55359f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-191                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-191-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\shovo\.gradle\caches\transforms-3\62e87c3cfe17c830dad51da22e55359f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-192                android:value="androidx.startup" />
-192-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\shovo\.gradle\caches\transforms-3\62e87c3cfe17c830dad51da22e55359f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-193        </provider>
-194    </application>
-195
-196</manifest>
+23        android:theme="@style/Theme.Travellovisor" >
+23-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:14:9-51
+24        <activity
+24-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:15:9-17:40
+25            android:name="com.example.travellovisor.SearchNow"
+25-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:16:13-38
+26            android:exported="false" />
+26-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:17:13-37
+27        <activity
+27-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:18:9-20:40
+28            android:name="com.example.travellovisor.Payment"
+28-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:19:13-36
+29            android:exported="false" />
+29-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:20:13-37
+30        <activity
+30-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:21:9-23:40
+31            android:name="com.example.travellovisor.transportation.ChooseSeats"
+31-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:22:13-55
+32            android:exported="false" />
+32-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:23:13-37
+33        <activity
+33-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:24:9-26:40
+34            android:name="com.example.travellovisor.transportation.TimeSelection"
+34-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:25:13-57
+35            android:exported="false" />
+35-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:26:13-37
+36        <activity
+36-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:27:9-29:40
+37            android:name="com.example.travellovisor.transportation.BusTime"
+37-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:28:13-51
+38            android:exported="false" />
+38-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:29:13-37
+39        <activity
+39-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:30:9-32:40
+40            android:name="com.example.travellovisor.transportation.Bus_Source"
+40-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:31:13-54
+41            android:exported="false" />
+41-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:32:13-37
+42        <activity
+42-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:33:9-35:40
+43            android:name="com.example.travellovisor.transportation.BusDestination"
+43-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:34:13-58
+44            android:exported="false" />
+44-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:35:13-37
+45        <activity
+45-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:36:9-38:39
+46            android:name="com.example.travellovisor.YourPackageList"
+46-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:37:13-44
+47            android:exported="true" />
+47-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:38:13-36
+48        <activity
+48-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:39:9-41:39
+49            android:name="com.example.travellovisor.YourTourPackage"
+49-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:40:13-44
+50            android:exported="true" />
+50-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:41:13-36
+51        <activity
+51-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:42:9-44:39
+52            android:name="com.example.travellovisor.UsersProfile"
+52-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:43:13-41
+53            android:exported="true" />
+53-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:44:13-36
+54        <activity
+54-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:45:9-47:39
+55            android:name="com.example.travellovisor.services.TourPackageDetails"
+55-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:46:13-56
+56            android:exported="true" />
+56-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:47:13-36
+57        <activity
+57-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:48:9-50:39
+58            android:name="com.example.travellovisor.SlideShow"
+58-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:49:13-38
+59            android:exported="true" />
+59-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:50:13-36
+60        <activity
+60-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:51:9-53:39
+61            android:name="com.example.travellovisor.services.TourPackages"
+61-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:52:13-50
+62            android:exported="true" />
+62-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:53:13-36
+63        <activity
+63-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:54:9-56:39
+64            android:name="com.example.travellovisor.account.LoginActivity"
+64-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:55:13-50
+65            android:exported="true" />
+65-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:56:13-36
+66        <activity
+66-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:57:9-59:39
+67            android:name="com.example.travellovisor.account.RegistrationActivity"
+67-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:58:13-57
+68            android:exported="true" />
+68-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:59:13-36
+69        <activity
+69-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:60:9-62:39
+70            android:name="com.example.travellovisor.services.TravelGuideDetails"
+70-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:61:13-56
+71            android:exported="true" />
+71-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:62:13-36
+72        <activity
+72-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:63:9-65:39
+73            android:name="com.example.travellovisor.services.TravelGuide"
+73-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:64:13-49
+74            android:exported="true" />
+74-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:65:13-36
+75        <activity
+75-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:66:9-68:40
+76            android:name="com.example.travellovisor.services.FindPlaces"
+76-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:67:13-48
+77            android:exported="false" />
+77-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:68:13-37
+78        <activity
+78-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:69:9-71:40
+79            android:name="com.example.travellovisor.account.OTPverifyActivity"
+79-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:70:13-54
+80            android:exported="false" />
+80-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:71:13-37
+81        <activity
+81-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:72:9-74:40
+82            android:name="com.example.travellovisor.account.OTPsendActivity"
+82-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:73:13-52
+83            android:exported="false" />
+83-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:74:13-37
+84        <activity
+84-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:75:9-77:40
+85            android:name="com.example.travellovisor.Homepage"
+85-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:76:13-37
+86            android:exported="false" />
+86-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:77:13-37
+87        <activity
+87-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:78:9-86:20
+88            android:name="com.example.travellovisor.MainActivity"
+88-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:79:13-41
+89            android:exported="true" >
+89-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:80:13-36
+90            <intent-filter>
+90-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:81:13-85:29
+91                <action android:name="android.intent.action.MAIN" />
+91-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:82:17-69
+91-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:82:25-66
+92
+93                <category android:name="android.intent.category.LAUNCHER" />
+93-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:84:17-77
+93-->C:\Users\shovo\Barikoi task\Final task search auto complete\Travellovisor\app\src\main\AndroidManifest.xml:84:27-74
+94            </intent-filter>
+95        </activity>
+96        <activity
+96-->[com.github.barikoi:BarikoiLocationLibrary:v1.2.2] C:\Users\shovo\.gradle\caches\transforms-3\f4712e4ae043abeaf1ee27e6b0f2f1f0\transformed\jetified-BarikoiLocationLibrary-v1.2.2\AndroidManifest.xml:15:9-18:20
+97            android:name="barikoi.barikoilocation.SearchAutoComplete.SearchAutoCompleteActivity"
+97-->[com.github.barikoi:BarikoiLocationLibrary:v1.2.2] C:\Users\shovo\.gradle\caches\transforms-3\f4712e4ae043abeaf1ee27e6b0f2f1f0\transformed\jetified-BarikoiLocationLibrary-v1.2.2\AndroidManifest.xml:16:13-97
+98            android:theme="@style/AppTheme.NoActionBar" >
+98-->[com.github.barikoi:BarikoiLocationLibrary:v1.2.2] C:\Users\shovo\.gradle\caches\transforms-3\f4712e4ae043abeaf1ee27e6b0f2f1f0\transformed\jetified-BarikoiLocationLibrary-v1.2.2\AndroidManifest.xml:17:13-56
+99        </activity>
+100
+101        <service
+101-->[com.google.firebase:firebase-database:20.0.3] C:\Users\shovo\.gradle\caches\transforms-3\fdcf3172eb58868b6cde8efd15c88446\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:29:9-35:19
+102            android:name="com.google.firebase.components.ComponentDiscoveryService"
+102-->[com.google.firebase:firebase-database:20.0.3] C:\Users\shovo\.gradle\caches\transforms-3\fdcf3172eb58868b6cde8efd15c88446\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:30:13-84
+103            android:directBootAware="true"
+103-->[com.google.firebase:firebase-common:20.0.0] C:\Users\shovo\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+104            android:exported="false" >
+104-->[com.google.firebase:firebase-database:20.0.3] C:\Users\shovo\.gradle\caches\transforms-3\fdcf3172eb58868b6cde8efd15c88446\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:31:13-37
+105            <meta-data
+105-->[com.google.firebase:firebase-database:20.0.3] C:\Users\shovo\.gradle\caches\transforms-3\fdcf3172eb58868b6cde8efd15c88446\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:32:13-34:85
+106                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+106-->[com.google.firebase:firebase-database:20.0.3] C:\Users\shovo\.gradle\caches\transforms-3\fdcf3172eb58868b6cde8efd15c88446\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:33:17-109
+107                android:value="com.google.firebase.components.ComponentRegistrar" />
+107-->[com.google.firebase:firebase-database:20.0.3] C:\Users\shovo\.gradle\caches\transforms-3\fdcf3172eb58868b6cde8efd15c88446\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:34:17-82
+108            <meta-data
+108-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
+109                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+109-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
+110                android:value="com.google.firebase.components.ComponentRegistrar" />
+110-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
+111        </service>
+112
+113        <provider
+113-->[com.squareup.picasso:picasso:2.71828] C:\Users\shovo\.gradle\caches\transforms-3\e65f005aeaca160246f830fbbc544dee\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+114            android:name="com.squareup.picasso.PicassoProvider"
+114-->[com.squareup.picasso:picasso:2.71828] C:\Users\shovo\.gradle\caches\transforms-3\e65f005aeaca160246f830fbbc544dee\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+115            android:authorities="com.example.travellovisor.com.squareup.picasso"
+115-->[com.squareup.picasso:picasso:2.71828] C:\Users\shovo\.gradle\caches\transforms-3\e65f005aeaca160246f830fbbc544dee\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+116            android:exported="false" />
+116-->[com.squareup.picasso:picasso:2.71828] C:\Users\shovo\.gradle\caches\transforms-3\e65f005aeaca160246f830fbbc544dee\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+117
+118        <activity
+118-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
+119            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+119-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
+120            android:excludeFromRecents="true"
+120-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
+121            android:exported="true"
+121-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
+122            android:launchMode="singleTask"
+122-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
+123            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+123-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
+124            <intent-filter>
+124-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
+125                <action android:name="android.intent.action.VIEW" />
+125-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+125-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+126
+127                <category android:name="android.intent.category.DEFAULT" />
+127-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+127-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+128                <category android:name="android.intent.category.BROWSABLE" />
+128-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+128-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+129
+130                <data
+130-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+131                    android:host="firebase.auth"
+131-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+132                    android:path="/"
+132-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
+133                    android:scheme="genericidp" />
+133-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+134            </intent-filter>
+135        </activity>
+136        <activity
+136-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
+137            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+137-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
+138            android:excludeFromRecents="true"
+138-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
+139            android:exported="true"
+139-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
+140            android:launchMode="singleTask"
+140-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
+141            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+141-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
+142            <intent-filter>
+142-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
+143                <action android:name="android.intent.action.VIEW" />
+143-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+143-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+144
+145                <category android:name="android.intent.category.DEFAULT" />
+145-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+145-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+146                <category android:name="android.intent.category.BROWSABLE" />
+146-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+146-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+147
+148                <data
+148-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+149                    android:host="firebase.auth"
+149-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+150                    android:path="/"
+150-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
+151                    android:scheme="recaptcha" />
+151-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+152            </intent-filter>
+153        </activity>
+154
+155        <service
+155-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
+156            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+156-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
+157            android:enabled="true"
+157-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
+158            android:exported="false" >
+158-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
+159            <intent-filter>
+159-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
+160                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+160-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
+160-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
+161
+162                <category android:name="android.intent.category.DEFAULT" />
+162-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+162-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\shovo\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+163            </intent-filter>
+164        </service>
+165
+166        <provider
+166-->[com.google.firebase:firebase-common:20.0.0] C:\Users\shovo\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+167            android:name="com.google.firebase.provider.FirebaseInitProvider"
+167-->[com.google.firebase:firebase-common:20.0.0] C:\Users\shovo\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+168            android:authorities="com.example.travellovisor.firebaseinitprovider"
+168-->[com.google.firebase:firebase-common:20.0.0] C:\Users\shovo\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+169            android:directBootAware="true"
+169-->[com.google.firebase:firebase-common:20.0.0] C:\Users\shovo\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+170            android:exported="false"
+170-->[com.google.firebase:firebase-common:20.0.0] C:\Users\shovo\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+171            android:initOrder="100" />
+171-->[com.google.firebase:firebase-common:20.0.0] C:\Users\shovo\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+172
+173        <activity
+173-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\shovo\.gradle\caches\transforms-3\9917c1060ba2f79f3519a1b2bf642c2c\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+174            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+174-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\shovo\.gradle\caches\transforms-3\9917c1060ba2f79f3519a1b2bf642c2c\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+175            android:exported="false"
+175-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\shovo\.gradle\caches\transforms-3\9917c1060ba2f79f3519a1b2bf642c2c\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+176            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+176-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\shovo\.gradle\caches\transforms-3\9917c1060ba2f79f3519a1b2bf642c2c\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+177
+178        <meta-data
+178-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\shovo\.gradle\caches\transforms-3\6adff63397c1ac50e331d47bdf613af2\transformed\jetified-play-services-basement-17.1.0\AndroidManifest.xml:23:9-25:69
+179            android:name="com.google.android.gms.version"
+179-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\shovo\.gradle\caches\transforms-3\6adff63397c1ac50e331d47bdf613af2\transformed\jetified-play-services-basement-17.1.0\AndroidManifest.xml:24:13-58
+180            android:value="@integer/google_play_services_version" />
+180-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\shovo\.gradle\caches\transforms-3\6adff63397c1ac50e331d47bdf613af2\transformed\jetified-play-services-basement-17.1.0\AndroidManifest.xml:25:13-66
+181
+182        <provider
+182-->[androidx.emoji2:emoji2:1.0.0] C:\Users\shovo\.gradle\caches\transforms-3\4b60651704c7d8651ad2c3503bb38c73\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+183            android:name="androidx.startup.InitializationProvider"
+183-->[androidx.emoji2:emoji2:1.0.0] C:\Users\shovo\.gradle\caches\transforms-3\4b60651704c7d8651ad2c3503bb38c73\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+184            android:authorities="com.example.travellovisor.androidx-startup"
+184-->[androidx.emoji2:emoji2:1.0.0] C:\Users\shovo\.gradle\caches\transforms-3\4b60651704c7d8651ad2c3503bb38c73\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+185            android:exported="false" >
+185-->[androidx.emoji2:emoji2:1.0.0] C:\Users\shovo\.gradle\caches\transforms-3\4b60651704c7d8651ad2c3503bb38c73\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+186            <meta-data
+186-->[androidx.emoji2:emoji2:1.0.0] C:\Users\shovo\.gradle\caches\transforms-3\4b60651704c7d8651ad2c3503bb38c73\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+187                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+187-->[androidx.emoji2:emoji2:1.0.0] C:\Users\shovo\.gradle\caches\transforms-3\4b60651704c7d8651ad2c3503bb38c73\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+188                android:value="androidx.startup" />
+188-->[androidx.emoji2:emoji2:1.0.0] C:\Users\shovo\.gradle\caches\transforms-3\4b60651704c7d8651ad2c3503bb38c73\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+189            <meta-data
+189-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\shovo\.gradle\caches\transforms-3\62e87c3cfe17c830dad51da22e55359f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+190                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+190-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\shovo\.gradle\caches\transforms-3\62e87c3cfe17c830dad51da22e55359f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+191                android:value="androidx.startup" />
+191-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\shovo\.gradle\caches\transforms-3\62e87c3cfe17c830dad51da22e55359f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+192        </provider>
+193    </application>
+194
+195</manifest>

@@ -28,6 +28,10 @@
         "source": "C:\\Users\\shovo\\Barikoi task\\Final task search auto complete\\Travellovisor\\app\\src\\main\\res\\layout\\activity_otpverify.xml"
     },
     {
+        "merged": "C:\\Users\\shovo\\Barikoi task\\Final task search auto complete\\Travellovisor\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\shovo\\Barikoi task\\Final task search auto complete\\Travellovisor\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
         "merged": "C:\\Users\\shovo\\Barikoi task\\Final task search auto complete\\Travellovisor\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_backpack_24.xml.flat",
         "source": "C:\\Users\\shovo\\Barikoi task\\Final task search auto complete\\Travellovisor\\app\\src\\main\\res\\drawable\\ic_baseline_backpack_24.xml"
     },
@@ -36,16 +40,12 @@
         "source": "C:\\Users\\shovo\\Barikoi task\\Final task search auto complete\\Travellovisor\\app\\src\\main\\res\\drawable\\homepage1.png"
     },
     {
-        "merged": "C:\\Users\\shovo\\Barikoi task\\Final task search auto complete\\Travellovisor\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\shovo\\Barikoi task\\Final task search auto complete\\Travellovisor\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+        "merged": "C:\\Users\\shovo\\Barikoi task\\Final task search auto complete\\Travellovisor\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\shovo\\Barikoi task\\Final task search auto complete\\Travellovisor\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "C:\\Users\\shovo\\Barikoi task\\Final task search auto complete\\Travellovisor\\app\\build\\intermediates\\merged_res\\debug\\layout_single_view_layout.xml.flat",
         "source": "C:\\Users\\shovo\\Barikoi task\\Final task search auto complete\\Travellovisor\\app\\src\\main\\res\\layout\\single_view_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\shovo\\Barikoi task\\Final task search auto complete\\Travellovisor\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\shovo\\Barikoi task\\Final task search auto complete\\Travellovisor\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "C:\\Users\\shovo\\Barikoi task\\Final task search auto complete\\Travellovisor\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_otpsend.xml.flat",
@@ -288,12 +288,12 @@
         "source": "C:\\Users\\shovo\\Barikoi task\\Final task search auto complete\\Travellovisor\\app\\src\\main\\res\\drawable\\ic_baseline_arrow_right_alt_24.xml"
     },
     {
-        "merged": "C:\\Users\\shovo\\Barikoi task\\Final task search auto complete\\Travellovisor\\app\\build\\intermediates\\merged_res\\debug\\drawable_transparent_bg_tomato_df.xml.flat",
-        "source": "C:\\Users\\shovo\\Barikoi task\\Final task search auto complete\\Travellovisor\\app\\src\\main\\res\\drawable\\transparent_bg_tomato_df.xml"
-    },
-    {
         "merged": "C:\\Users\\shovo\\Barikoi task\\Final task search auto complete\\Travellovisor\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
         "source": "C:\\Users\\shovo\\Barikoi task\\Final task search auto complete\\Travellovisor\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\shovo\\Barikoi task\\Final task search auto complete\\Travellovisor\\app\\build\\intermediates\\merged_res\\debug\\drawable_transparent_bg_tomato_df.xml.flat",
+        "source": "C:\\Users\\shovo\\Barikoi task\\Final task search auto complete\\Travellovisor\\app\\src\\main\\res\\drawable\\transparent_bg_tomato_df.xml"
     },
     {
         "merged": "C:\\Users\\shovo\\Barikoi task\\Final task search auto complete\\Travellovisor\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_tour_packages.xml.flat",
